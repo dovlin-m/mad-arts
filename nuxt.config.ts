@@ -94,6 +94,22 @@ const modules = [
   'nuxt-webfontloader',
 ];
 
+const build = {
+  extractCSS: true,
+
+  babel: {
+    compact: true,
+    presets (_: any) {
+      return [
+        [
+          '@nuxt/babel-preset-app',
+          { corejs: { version: 3 } },
+        ],
+      ];
+    },
+  },
+};
+
 export default {
   ssr: false,
 
@@ -116,9 +132,7 @@ export default {
   modules,
   compilerOptions,
 
-  build: {
-    extractCSS: true,
-  },
+  build,
 
   styleResources,
   css: ['~assets/scss/styles.scss'],

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    Hello Mad-Arts
+  <div class="">
+    <h1 class="text-gray" v-text="$t('pages.portfolio.title')" />
   </div>
 </template>
 
