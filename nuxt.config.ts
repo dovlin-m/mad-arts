@@ -112,6 +112,28 @@ const build = {
   },
 };
 
+const optimizedImages = {
+  handleImages: ['jpeg', 'jpg', 'png', 'svg', 'webp'],
+  optimizeImages: true,
+  optimizeImagesInDev: false,
+  defaultImageLoader: 'img-loader',
+  mozjpeg: {
+    quality: 70,
+  },
+  optipng: {
+    optimizationLevel: 3,
+  },
+  webp: {
+    preset: 'default',
+    quality: 75,
+  },
+  pngquant: {
+    speed: 7,
+    strip: true,
+  },
+  svgo: {},
+};
+
 export default {
   ssr: false,
 
@@ -141,4 +163,5 @@ export default {
 
   typescript,
   i18n,
+  optimizedImages,
 };

@@ -3,6 +3,8 @@
     <organisms-header />
 
     <nuxt />
+
+    <organisms-footer />
   </main>
 </template>
 
