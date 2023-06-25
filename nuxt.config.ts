@@ -46,7 +46,10 @@ const typescript = {
 
 const components = true;
 
-const buildModules = ['@nuxt/typescript-build'];
+const buildModules = [
+  '@nuxt/typescript-build',
+  '@aceforth/nuxt-optimized-images',
+];
 
 const styleResources = {
   scss: [
@@ -91,7 +94,9 @@ const compilerOptions = {
   types: ['@nuxtjs/i18n'],
 };
 
-const plugins = [];
+const plugins = [
+  { src: '@/plugins/lazyload.ts', mode: 'client' },
+];
 
 const modules = [
   '@nuxtjs/i18n',

@@ -1,14 +1,14 @@
 <template>
   <div class="container pt-header">
     <div class="my-8 my-sm-12 my-lg-16">
-      <h1 v-text="$t('pages.portfolio.title')" />
+      <h1 class="text-gray" v-text="$t('pages.portfolio.title')" />
 
       <div>
         <div
           v-for="({ title, date, slug, images, id }) in portfolio"
           :id="id"
           :key="title"
-          class="darker pa-2 pa-sm-4 pa-lg-6 mt-8"
+          class="dark pa-2 py-sm-4 px-sm-4 py-lg-6 mt-8"
         >
           <div class="d-flex align-items-center mb-6">
             <atoms-logo logo-min large class="mr-3 mr-sm-4" />

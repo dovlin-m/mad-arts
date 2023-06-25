@@ -8,6 +8,7 @@
   >
     <img
       class="image darker"
+      v-lazy="require(`~/assets/images/portfolio/${img}.jpg`)"
       :src="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
       width="100%"
       :alt="img"
