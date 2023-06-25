@@ -1,5 +1,16 @@
 import 'dotenv-defaults/config';
 
+const dev: boolean = process.env.NODE_ENV !== 'production';
+const baseUrl: string | undefined = dev ? process.env.BASE_URL : `http://${process.env.HOST}:${process.env.PORT}/`;
+
+const publicRuntimeConfig = {
+  PORT: process.env.PORT,
+  BASE_URL: baseUrl,
+  META_NAME: process.env.META_NAME,
+  SOCIALS_EMAIL: process.env.SOCIALS_EMAIL,
+  SOCIALS_PHONE: process.env.SOCIALS_PHONE,
+};
+
 const head = {
   head: {
     title: process.env.META_TITLE,
@@ -42,6 +53,47 @@ const styleResources = {
   ],
 };
 
+const i18n = {
+  locales: [
+    {
+      name: 'English',
+      code: 'en',
+      iso: 'en-GB',
+      file: 'en.ts',
+    },
+    {
+      name: 'Русский',
+      code: 'ru',
+      iso: 'ru-MD',
+      file: 'ru.ts',
+    },
+  ],
+  detectBrowserLanguage: {
+    useCookie: true,
+    cookieKey: 'cp__locale',
+    redirectOn: 'root',
+  },
+  baseUrl,
+  lazy: true,
+  seo: false,
+  langDir: 'utils/locales/',
+  defaultLocale: process.env.LOCALE,
+  vueI18nLoader: true,
+  vueI18n: {
+    silentTranslationWarn: true,
+    fallbackLocale: process.env.LOCALE,
+  },
+};
+
+const compilerOptions = {
+  types: ['@nuxtjs/i18n'],
+};
+
+const modules = [
+  '@nuxtjs/i18n',
+  'nuxt-webfontloader',
+];
+
 export default {
   ssr: false,
 
@@ -49,6 +101,7 @@ export default {
   router: {
     base: '/mad-arts/',
   },
+  publicRuntimeConfig,
 
   head,
   webfontloader,
@@ -60,8 +113,8 @@ export default {
 
   buildModules,
 
-  modules: [
-  ],
+  modules,
+  compilerOptions,
 
   build: {
     extractCSS: true,
@@ -71,4 +124,5 @@ export default {
   css: ['~assets/scss/styles.scss'],
 
   typescript,
+  i18n,
 };
