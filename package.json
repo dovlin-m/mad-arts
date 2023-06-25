@@ -5,16 +5,30 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue ."
   },
   "dependencies": {
     "@nuxtjs/device": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/style-resources": "^1.2.1",
-    "nuxt": "^2.15.8"
+    "dotenv-defaults": "^5.0.2",
+    "nuxt": "^2.15.8",
+    "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.17.0",
+    "@nuxt/typescript-build": "^3.0.1",
     "core-js": "^3.25.3",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-config-typescript": "^8.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/stylelint-module": "^4.1.0",
     "node-sass": "^8.0.0",
-    "sass-loader": "^10.4.1"
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "sass-loader": "^10.4.1",
+    "typescript": "^4.9.5",
+    "eslint": "^8.18.0"
   }
 }
