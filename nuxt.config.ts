@@ -92,6 +92,8 @@ const compilerOptions = {
   types: ['@nuxtjs/i18n'],
 };
 
+const plugins = [];
+
 const modules = [
   '@nuxtjs/i18n',
   'nuxt-webfontloader',
@@ -151,7 +153,7 @@ export default {
   head,
   webfontloader,
 
-  plugins: [],
+  plugins,
 
   buildModules,
 
