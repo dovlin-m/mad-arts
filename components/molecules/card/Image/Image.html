@@ -1,0 +1,16 @@
+<div
+  class="card-image flex-grow-1 rounded-2 col-sm-6 col-lg-4"
+  :class="{ 'active': active }"
+  @click="turnActive()"
+>
+  <div
+    class="card-wrap d-flex flex-column align-items-center jc-center"
+  >
+    <img
+      class="image darker"
+      :src="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
+      width="100%"
+      :alt="img"
+    >
+  </div>
+</div>

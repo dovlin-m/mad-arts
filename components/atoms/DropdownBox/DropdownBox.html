@@ -1,0 +1,12 @@
+<div class="dropdown-box">
+  <slot name="button" />
+
+  <div v-if="active" class="dropdown-wrapper">
+    <div class="box py-2 rounded-2 shadow base-white">
+      <div class="rectangle shadow base-white z-index"/>
+      <div class="rectangle base-white"/>
+
+      <slot name="dropdown-menu" />
+    </div>
+  </div>
+</div>

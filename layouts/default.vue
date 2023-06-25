@@ -1,5 +1,7 @@
 <template>
   <main class="darker">
+    <organisms-header />
+
     <nuxt />
   </main>
 </template>

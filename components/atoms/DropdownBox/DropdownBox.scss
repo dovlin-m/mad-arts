@@ -1,0 +1,30 @@
+.dropdown-box {
+  position: relative;
+  display: inline-block;
+
+  .dropdown-wrapper {
+    position: absolute;
+    padding-top: 18px;
+    z-index: 1;
+
+    @media #{map-get($display-breakpoints, 'sm')} {
+      padding-top: 26px;
+    }
+  }
+
+  .box {
+    position: absolute;
+
+    .rectangle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      transform: rotate(45deg);
+    }
+
+    .rectangle.shadow {
+      z-index: -1;
+    }
+  }
+}

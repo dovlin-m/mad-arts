@@ -1,0 +1,33 @@
+<div class="header">
+  <div class="container">
+    <header class="d-flex jc-space-between">
+      <atoms-logo />
+
+      <molecules-card-menu-dropdown />
+
+      <div class="d-flex align-items-center row-gap-3">
+        <div class="d-flex jc-center column-gap-2">
+          <template v-for="locale in $i18n.locales">
+            <component
+              :is="locale.code === $i18n.locale ? 'span' : 'nuxt-link'"
+              :key="locale.code"
+              :href="locale.code === $i18n.locale ? null : menuLocale[locale.code]"
+              :to="locale.code === $i18n.locale ? null : menuLocale[locale.code]"
+              :class="{ 'text-bold': locale.code === $i18n.locale }"
+              class="link-locale link-none text-uppercase text-small"
+              v-text="locale.code"
+            />
+          </template>
+        </div>
+
+        <nuxt-link
+          v-for="{ id, nuxtHref } of menu" :key="id"
+          class="text-body ml-2 mb-0"
+          :to="localePath(nuxtHref)"
+          active-class="active"
+          v-text="$t(`header.${id}`)"
+        />
+      </div>
+    </header>
+  </div>
+</div>

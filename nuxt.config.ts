@@ -92,6 +92,8 @@ const compilerOptions = {
 const modules = [
   '@nuxtjs/i18n',
   'nuxt-webfontloader',
+  '@nuxtjs/style-resources',
+  '@nuxt/content',
 ];
 
 const build = {

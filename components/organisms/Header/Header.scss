@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  height: 54px;
+  width: 100%;
+
+  background: rgba(241, 241, 244, 0.7);
+  // background: rgba(241, 215, 212, 0.7);
+  backdrop-filter: blur(32px);
+
+  @media #{map-get($display-breakpoints, 'sm')} {
+    height: 70px;
+  }
+
+  & header {
+    height: 54px;
+
+    @media #{map-get($display-breakpoints, 'sm')} {
+      height: 70px;
+    }
+  }
+}

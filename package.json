@@ -12,6 +12,7 @@
     "@nuxtjs/device": "^2.1.0",
     "@nuxtjs/i18n": "^7.2.2",
     "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxt/content": "^1.15.1",
     "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0"
   },
@@ -34,6 +35,11 @@
     "node-sass": "^8.0.0",
     "normalize-scss": "^7.0.1",
     "sass-loader": "^10.4.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.21.0"
   }
 }

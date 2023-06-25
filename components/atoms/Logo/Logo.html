@@ -1,0 +1,13 @@
+<nuxt-link class="d-flex align-items-center logo link-none" :to="localePath({ name: 'index' })">
+  <img
+    :src="require('~/assets/images/logo/russian-girl.jpg?webp')" alt="logo"
+    class="logo-min rounded-circle"
+    :class="{
+      'mr-2': !logoMin,
+      'large': large,
+    }"
+  />
+
+  <h3 v-if="!logoMin" class="mb-0" v-text="$config.META_NAME" />
+</nuxt-link>
+

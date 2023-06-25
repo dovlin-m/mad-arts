@@ -1,0 +1,42 @@
+.dropdown-box /deep/ .dropdown-wrapper {
+  padding-top: 23px !important;
+  right: 0;
+  width: 160px;
+}
+
+.dropdown-box /deep/ .box {
+  width: 160px;
+
+  .rectangle {
+    left: calc(80% - 12px / 2 + 6px);
+  }
+}
+
+.btn-menu-profile {
+  display: block;
+  width: 100%;
+  background-color: map-get($colors, 'base-white');
+  border: none;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    background-color: map-get($colors, 'primary-100');
+  }
+
+  &.active {
+    background-color: map-get($colors, 'primary-100');
+  }
+}
+
+.divider::before {
+  position: relative;
+  display: block;
+  content: '';
+  border: 0.5px solid map-get($colors, 'gray-200');
+}
+
+.link-profile {
+  padding-bottom: inherit;
+  border-bottom: none;
+}

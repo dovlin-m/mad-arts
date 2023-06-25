@@ -1,0 +1,11 @@
+.logo-min {
+  height: 32px;
+  width: 32px;
+
+  object-fit: cover;
+
+  &.large {
+    height: 48px;
+    width: 48px;
+  }
+}
