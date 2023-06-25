@@ -10,21 +10,21 @@
     @media #{map-get($display-breakpoints, 'sm')} {
       padding-top: 26px;
     }
-  }
 
-  .box {
-    position: absolute;
-
-    .rectangle {
-      position: absolute;
-      width: 12px;
-      height: 12px;
-      top: -6px;
-      transform: rotate(45deg);
+    &.active {
+      .box {
+        height: 252px;
+      }
     }
 
-    .rectangle.shadow {
-      z-index: -1;
+    .box {
+      position: absolute;
+      height: 0;
+
+      overflow: scroll;
+      background: rgba(241, 241, 244, 0.7);
+      backdrop-filter: blur(32px);
+      transition: height .3s;
     }
   }
 }
