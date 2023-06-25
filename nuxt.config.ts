@@ -44,6 +44,9 @@ const typescript = {
   },
 };
 
+const components = true;
+
+
 const buildModules = ['@nuxt/typescript-build'];
 
 const styleResources = {
@@ -143,13 +146,12 @@ export default {
   },
   publicRuntimeConfig,
 
+  components,
+
   head,
   webfontloader,
 
-  plugins: [
-  ],
-
-  components: true,
+  plugins: [],
 
   buildModules,
 
