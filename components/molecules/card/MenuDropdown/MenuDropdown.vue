@@ -10,9 +10,9 @@ export default defineComponent({
   }),
 
   async fetch () {
-    this.menu =
-      await this.$content(`${this.$i18n.locale}/portfolio`, { deep: true }).only(['id', 'title']).fetch();
-    // console.log('title', this.menu);
+    this.menu = await this.$content(`${this.$i18n.locale}/portfolio`, { deep: true })
+      .only(['id', 'title'])
+      .fetch();
   },
 
   beforeMount () {
@@ -24,11 +24,6 @@ export default defineComponent({
     this.$on('hook:beforeDestroy', () => document.removeEventListener('click', onClickOutside));
   },
 
-  mounted () {
-    console.log('menu', this.menu);
-    console.log('locale', this.$i18n.locale);
-  },
-
   methods: {
     handleScroll () {
       this.active = false;
@@ -36,7 +31,6 @@ export default defineComponent({
 
     turnActive () {
       this.active = !this.active;
-      console.log('this.active', this.active);
     },
 
     scrollToBottom (id) {

@@ -1,11 +1,12 @@
 .card-image {
   cursor: pointer;
+
   @media #{map-get($display-breakpoints, 'sm')} {
     height: 350px;
   }
 
   &.active {
-    min-width: 200px;
+    min-width: 350px;
 
     .card-wrap {
       position: fixed;

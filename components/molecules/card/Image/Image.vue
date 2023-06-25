@@ -15,15 +15,6 @@ export default defineComponent({
     active: false,
   }),
 
-  computed: {
-  },
-
-  watch: {
-    open () {
-      console.log('active', this.active);
-    },
-  },
-
   methods: {
     turnActive () {
       this.active = !this.active;
