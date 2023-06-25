@@ -1,0 +1,10 @@
+// Border-radius
+@each $breakpoints, $b in $breakpoints {
+  @each $rounded, $r in $rounded {
+    @media (min-width: $b) {
+      .rounded#{$breakpoints}#{$rounded} {
+        border-radius: $r;
+      }
+    }
+  }
+}

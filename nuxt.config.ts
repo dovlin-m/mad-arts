@@ -35,6 +35,13 @@ const typescript = {
 
 const buildModules = ['@nuxt/typescript-build'];
 
+const styleResources = {
+  scss: [
+    '~assets/scss/helpers/variables.scss',
+    '~assets/scss/helpers/mixins.scss',
+  ],
+};
+
 export default {
   ssr: false,
 
@@ -45,9 +52,6 @@ export default {
 
   head,
   webfontloader,
-
-  css: [
-  ],
 
   plugins: [
   ],
@@ -60,7 +64,11 @@ export default {
   ],
 
   build: {
+    extractCSS: true,
   },
+
+  styleResources,
+  css: ['~assets/scss/styles.scss'],
 
   typescript,
 };

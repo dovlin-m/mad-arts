@@ -1,0 +1,22 @@
+// BACKGROUND-COLOR
+
+@each $colors, $c in $colors {
+  .#{$colors} {
+    background-color: $c;
+  }
+}
+
+// COLOR
+@each $colors, $c in $colors {
+  .text-#{$colors} {
+    color: $c;
+  }
+}
+
+@each $colors, $c in $colors {
+  .text-hover-#{$colors} {
+    &:hover {
+      color: $c;
+    }
+  }
+}

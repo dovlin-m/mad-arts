@@ -1,0 +1,30 @@
+// Spacing
+@each $breakpoints, $b in $breakpoints {
+  @for $i from 0 through 24 {
+    @each $spacingTypes, $st in $spacingTypes {
+      @each $sides, $s in $sides {
+        .#{$spacingTypes}#{$sides}#{$breakpoints}#{$i} {
+          @media (min-width: $b) {
+            @include spacer($i, $st, $s);
+          }
+        }
+
+        .#{$spacingTypes}#{$sides}#{$breakpoints}n#{$i} {
+          @media (min-width: $b) {
+            @include spacer(-$i, $st, $s);
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $breakpoints, $b in $breakpoints {
+  @each $sides, $s in $sides {
+    .m#{$sides}#{$breakpoints}auto {
+      @media (min-width: $b) {
+        @include spacer-auto($s);
+      }
+    }
+  }
+}

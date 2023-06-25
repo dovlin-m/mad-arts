@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="darker">
     <nuxt />
   </main>
 </template>

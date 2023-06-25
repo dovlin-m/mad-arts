@@ -1,0 +1,132 @@
+// HEADER
+$header-size: 70px;
+
+// FONTS
+$f-inter: 'Inter', sans-serif;
+
+// COLORS
+$colors: (
+  'yellow': #ffe300,
+  'primary': #2DA34A,
+  'darker': #17181C,
+  'dark': #40434F,
+  'muted': #94969E,
+  'gray': #F1F1F4,
+  'white': #FFFFFF,
+  'error': #DD4A2B,
+  'black': #000000,
+  'black-tint': rgba(0, 0, 0, 0.15),
+  'white-tint': rgba(255, 255, 255, 0.15),
+);
+
+$steps: 4px;
+
+$spacingTypes: (
+  'p': 'padding',
+  'm': 'margin'
+);
+
+$sides: (
+  t: (
+    top
+  ),
+  b: (
+    bottom
+  ),
+  l: (
+    left
+  ),
+  r: (
+    right
+  ),
+  x: (
+    left,
+    right
+  ),
+  y: (
+    top,
+    bottom
+  ),
+  a: (
+    left,
+    right,
+    top,
+    bottom
+  )
+);
+
+// Breakpoints
+$breakpoints: (
+  '-': 0,
+  '-sm-': 768px,
+  '-lg-': 1220px
+);
+
+// xs /0-768/ sm /768-1220/ lg /1220-/
+
+$display-breakpoints: (
+  'xs': only screen and
+    (
+      min-width: #{map-get($breakpoints, '-')}
+    ),
+  'xs-and-down': only screen and
+    (
+      max-width: #{map-get($breakpoints, '-sm-')}
+    ),
+  'sm': only screen and
+    (
+      min-width: #{map-get($breakpoints, '-sm-')}
+    ),
+  'sm-and-down': only screen and
+    (
+      max-width: #{map-get($breakpoints, '-lg-')}
+    ),
+  'lg': only screen and
+    (
+      min-width: #{map-get($breakpoints, '-lg-')}
+    )
+);
+
+// Display
+$display: (
+  flex,
+  inline-flex,
+  block,
+  inline-block,
+  grid,
+  inline-grid,
+  none,
+  inline
+);
+
+// Justify-content
+$justify-content: (
+  center,
+  start,
+  end,
+  space-between,
+  space-around,
+  space-evenly
+);
+
+// Flex
+$flex: (wrap, nowrap);
+
+// Flex-direction
+$direction: (row, row-reverse, column, column-reverse);
+
+// Rounded
+$rounded: (
+  '1': 4px,
+  '2': 8px,
+  '3': 12px,
+  '4': 16px,
+  '6': 24px,
+  'circle': 100px
+);
+
+// Gap
+$gap: (column, row);
+
+//Box-shadow
+$box-shadow: 0 0 6px rgba(170, 170, 170, 0.5), 0 5px 15px rgba(2, 2, 2, 0);

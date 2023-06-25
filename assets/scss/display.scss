@@ -1,0 +1,10 @@
+// Display
+@each $breakpoints, $b in $breakpoints {
+  @each $display, $d in $display {
+    @media (min-width: $b) {
+      .d#{$breakpoints}#{$display} {
+        display: $display;
+      }
+    }
+  }
+}
