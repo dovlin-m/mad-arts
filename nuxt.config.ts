@@ -46,7 +46,6 @@ const typescript = {
 
 const components = true;
 
-
 const buildModules = ['@nuxt/typescript-build'];
 
 const styleResources = {
