@@ -2,6 +2,10 @@
   cursor: pointer;
 
   @media #{map-get($display-breakpoints, 'sm')} {
+    height: 220px;
+  }
+
+  @media #{map-get($display-breakpoints, 'lg')} {
     height: 350px;
   }
 
@@ -40,6 +44,10 @@
       object-fit: cover;
 
       @media #{map-get($display-breakpoints, 'sm')} {
+        height: 220px;
+      }
+
+      @media #{map-get($display-breakpoints, 'lg')} {
         height: 350px;
       }
     }
