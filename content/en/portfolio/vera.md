@@ -4,12 +4,12 @@ group: 8
 title: A series of sketches "Vera"
 date: 2022
 images:
-- 'vera_2'
-- 'vera_3'
-- 'vera_4'
-- 'vera_5'
-- 'vera_6'
-- 'vera_7'
-- 'vera_8'
-- 'vera_9'
+  - 'vera_7/col-sm-3'
+  - 'vera_6/col-sm-3'
+  - 'vera_9/col-sm-3'
+  - 'vera_8/col-sm-3'
+  - 'vera_4/col-sm-3'
+  - 'vera_5/col-sm-3'
+  - 'vera_2/col-sm-3'
+  - 'vera_3/col-sm-3'
 ---

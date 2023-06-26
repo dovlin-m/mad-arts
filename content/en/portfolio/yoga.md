@@ -4,17 +4,17 @@ group: 6
 title: Yoga - clothing brand
 date: 2022
 images:
-- 'banner'
-- 'font'
-- 'palette'
-- 'gazelle'
-- 'logo_1'
-- 'logo_2'
-- 'logo_3'
-- 'logo_4'
-- 'logo_5'
-- 'logo_7'
-- 'logo_8'
+- 'banner/col-sm-3'
+- 'palette/col-sm-3'
+- 'logo_5/col-sm-6'
+- 'logo_8/col-sm-3'
+- 'gazelle/col-sm-3'
+- 'font/col-sm-3'
+- 'logo_4/col-sm-3'
+- 'logo_1/col-sm-3'
+- 'logo_2/col-sm-9'
+- 'logo_7/col-sm-8'
 - 'gazelle_3d'
 - 'sketch'
+- 'logo_3/col-sm-8'
 ---

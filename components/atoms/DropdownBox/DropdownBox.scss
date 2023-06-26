@@ -1,15 +1,17 @@
 .dropdown-box {
   position: relative;
-  display: inline-block;
+  // display: inline-block;
 
   .dropdown-wrapper {
     position: absolute;
+    background: rgba(241, 241, 244, 0.7);
+    backdrop-filter: blur(32px);
     margin-top: 18px;
 
     z-index: -1;
 
     @media #{map-get($display-breakpoints, 'sm')} {
-      margin-top: 23px;
+      margin-top: 24px;
     }
 
     &.active {

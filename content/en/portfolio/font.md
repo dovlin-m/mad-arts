@@ -4,7 +4,9 @@ group: 17
 title: Fonts
 date: 2022
 images:
-- 'font_1'
-- 'font_2'
-- 'font_3'
+- 'font_2/col-sm-3'
+- 'font_1/col-sm-6'
+- 'font_3/col-sm-3'
+- 'font_4/col-sm-6'
+- 'font_5/col-sm-3'
 ---
