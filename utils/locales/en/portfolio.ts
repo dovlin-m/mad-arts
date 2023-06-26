@@ -43,7 +43,11 @@ export const portfolio = {
   ],
   vega_cafe: ['The Vega Cafe project was aimed at creating visually appealing advertising options for a vegan cafe. The goal was to grab the attention of customers who visited the cafe and provide them with key information about the establishment. The project included creating several options for table advertising, using the branded green shades of the cafe. Through careful planning and thoughtful design, I managed to create eye-catching materials that highlighted the main information about the Vega Cafe. After the designs were approved, the materials were printed and put in place at the tables throughout the cafe. The end result of this project was a successful advertising campaign that effectively communicated the message of the Vega Cafe to customers.'],
   room: [''],
-  decorative_sketch: [''],
+  decorative_sketch: [
+    'Within this collection, you will find a series of sketches that hold a special place in my heart. These sketches are from my old sketchbook and may appear outdated in terms of craftsmanship, but I have chosen to share them here to showcase the power of creative ideas.',
+    'These drawings represent a time in my artistic journey. While they may not possess the refined skills of my more recent works, they hold a certain charm and rawness that I believe is worth sharing.',
+    'Through these sketches, I aim to highlight the creative process and the importance of nurturing ideas. Each drawing is a glimpse into the thoughts and imagination that drove me at that time. They serve as a reminder of where I started and how my artistic skills have evolved over time.',
+  ],
   plener: [
     'Here I want to introduce you to my plein air paintings. Plein air drawing and painting refers to the act of creating art in the open air, capturing the essence of the natural world.',
     'In the open air, I had an incredible opportunity to create both color and black and white works. The experience of plein air painting and drawing is truly amazing. I could capture the vibrant atmosphere and energy of my subjects. It\'s an exciting challenge to quickly capture the essence of someone or something while keeping it alive and capturing the surrounding atmosphere.',
