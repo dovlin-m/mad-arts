@@ -17,18 +17,23 @@
     &.active {
       .box {
         height: 252px;
+        top: 0;
+        opacity: 1;
       }
     }
 
     .box {
       position: absolute;
-      height: 0;
+      top: -1px;
+      height: 1px;
+      opacity: 0;
 
       overflow: scroll;
       background: rgba(241, 241, 244, 0.7);
-      -webkit-backdrop-filter: blur(32px);
       backdrop-filter: blur(32px);
-      transition: height .3s;
+
+      transition: all .3s, top .3s;
+      z-index: -1;
     }
   }
 }

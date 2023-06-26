@@ -29,7 +29,11 @@ export const portfolio = {
     'I am honored to be a part of this project, contributing to the visual identity of Have a Sense and helping them establish their brand in the clothing world.',
   ],
   decorative_drawing: [''],
-  armo: [''],
+  armo: [
+    'This collection of works is dedicated to the Armo project, specifically creating an emblem for a hockey team. The goal was to design several emblem options inspired by the style of 1960s America.',
+    'For this project, I took on the challenge and successfully completed it by crafting four distinct emblem variations. Drawing inspiration from the iconic aesthetic of the 1960s in the United States, I worked diligently to capture the essence of that era in each design.',
+    'Each emblem option represents a unique interpretation of the team\'s identity, blending elements of nostalgia and the spirit of American hockey culture from the 1960s. Through careful consideration of typography, and graphic elements, I aimed to create visually striking and memorable emblems that embody the team\'s essence.',
+  ],
   perspective: [''],
   academic_head: [
     'Here, you will find a collection of my academic drawings, featuring plaster heads of Diadumen and Verera.',
