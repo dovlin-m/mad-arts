@@ -26,14 +26,9 @@
           </atoms-grid-row>
 
           <div class="d-flex flex-column row-gap-2 mt-4">
-            <!--
-            <p
-              v-for="(text, index) of $t(`portfolio.${id}`)"
-              :key="index"
-              class="text-gray text-small"
-              v-text="text"
-            />
-            -->
+            <template v-for="(text, index) of $t(`portfolio.${id}`)">
+              <p v-if="text" :key="index" class="text-gray text-small" v-text="text" />
+            </template>
 
             <p class="text-small text-right text-muted" v-text="date" />
           </div>

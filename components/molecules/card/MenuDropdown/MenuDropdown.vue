@@ -11,7 +11,7 @@ export default defineComponent({
 
   async fetch () {
     this.menu = await this.$content(`${this.$i18n.locale}/portfolio`, { deep: true })
-      .only(['id', 'title'])
+      .only(['id', 'title', 'group'])
       .fetch();
 
     this.menu.sort((a, b) => Number(a.group) - Number(b.group));

@@ -8,9 +8,9 @@ images:
   - 'tomato'
   - 'lemon'
   - 'grandmother_and_cat'
+  - 'grandparent_2'
   - 'grandparents'
   - 'girl_on_case'
   - 'mouse_girl'
   - 'girl_yoga'
-  - 'vera'
 ---

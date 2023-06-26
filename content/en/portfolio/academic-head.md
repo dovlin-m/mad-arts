@@ -1,5 +1,5 @@
 ---
-id: academic-head
+id: academic_head
 group: 7
 title: Academic heads
 date: 2022

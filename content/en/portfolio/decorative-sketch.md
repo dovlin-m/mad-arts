@@ -1,5 +1,5 @@
 ---
-id: decorative-sketch
+id: decorative_sketch
 group: 16
 title: Decorative sketch
 date: 2022

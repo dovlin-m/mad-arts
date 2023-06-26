@@ -1,5 +1,5 @@
 ---
-id: digital-dark
+id: digital_dark
 group: 2
 title: Digital dark
 date: 2022

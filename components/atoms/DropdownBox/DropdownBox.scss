@@ -4,11 +4,12 @@
 
   .dropdown-wrapper {
     position: absolute;
-    padding-top: 18px;
-    z-index: 1;
+    margin-top: 18px;
+
+    z-index: -1;
 
     @media #{map-get($display-breakpoints, 'sm')} {
-      padding-top: 26px;
+      margin-top: 23px;
     }
 
     &.active {
@@ -23,6 +24,7 @@
 
       overflow: scroll;
       background: rgba(241, 241, 244, 0.7);
+      -webkit-backdrop-filter: blur(32px);
       backdrop-filter: blur(32px);
       transition: height .3s;
     }

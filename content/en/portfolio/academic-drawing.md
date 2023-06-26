@@ -17,4 +17,5 @@ images:
   - 'vase_and_apple'
   - 'bird'
   - 'sketch_3'
+  - 'sketch_5'
 ---

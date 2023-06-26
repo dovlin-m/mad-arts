@@ -1,11 +1,4 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-
-  @media #{map-get($display-breakpoints, 'sm')} {
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-  }
 }
