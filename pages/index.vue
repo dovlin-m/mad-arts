@@ -24,7 +24,16 @@
             />
           </div>
 
-          <div class="d-flex jc-space-between align-items-center mt-4">
+          <div class="d-flex flex-column row-gap-2 mt-4">
+            <!--
+            <p
+              v-for="(text, index) of $t(`portfolio.${id}`)"
+              :key="index"
+              class="text-gray text-small"
+              v-text="text"
+            />
+            -->
+
             <p class="text-small text-right text-muted" v-text="date" />
           </div>
         </div>

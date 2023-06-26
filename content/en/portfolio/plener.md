@@ -1,6 +1,6 @@
 ---
 id: plener
-group: 5
+group: 9
 title: Plener
 date: 2022
 images:
@@ -13,6 +13,5 @@ images:
 - 'street_2'
 - 'lake'
 - 'girl'
-- 'rabbit'
 - 'sketch_2'
 ---

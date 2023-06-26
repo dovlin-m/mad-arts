@@ -1,15 +1,20 @@
 ---
-id: academic-drawing
-group: 13
+id: academic_drawing
+group: 10
 title: Academic drawing
 date: 2022
 images:
-  - 'lemon'
-  - 'red_blue'
-  - 'sketch_3'
-  - 'girl_background_yellow'
-  - 'flower'
-  - 'duck'
+  - 'sketch'
+  - 'bottles'
+  - 'sketch_2'
+  - 'ear'
+  - 'sketch_girl'
+  - 'girl'
+  - 'sketch_mariia'
   - 'arm'
-  - 'foot'
+  - 'sketch_4'
+  - 'vase'
+  - 'vase_and_apple'
+  - 'bird'
+  - 'sketch_3'
 ---

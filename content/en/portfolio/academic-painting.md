@@ -1,20 +1,15 @@
 ---
-id: academic-painting
-group: 6
+id: academic_painting
+group: 14
 title: Academic painting
 date: 2022
 images:
-- 'arm'
-- 'vase'
-- 'bottles'
-- 'sketch'
-- 'sketch_girl'
-- 'ear'
-- 'girl'
-- 'vase_and_apple'
-- 'bird'
-- 'sketch_mariia'
-- 'sketch_2'
-- 'sketch_3'
-- 'sketch_4'
+  - 'lemon'
+  - 'red_blue'
+  - 'sketch_3'
+  - 'girl_background_yellow'
+  - 'flower'
+  - 'duck'
+  - 'arm'
+  - 'foot'
 ---

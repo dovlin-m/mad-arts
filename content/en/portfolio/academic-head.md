@@ -1,7 +1,7 @@
 ---
 id: academic-head
-group: 16
-title: Painting head
+group: 7
+title: Academic heads
 date: 2022
 images:
   - 'face_12'
@@ -13,4 +13,5 @@ images:
   - 'face_5'
   - 'face_3'
   - 'face_10'
+  - 'face_13'
 ---

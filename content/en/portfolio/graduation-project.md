@@ -1,6 +1,6 @@
 ---
 id: graduation-project
-group: 7
+group: 5
 title: Graduation project
 date: 2022
 images:

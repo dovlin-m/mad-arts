@@ -1,6 +1,6 @@
 ---
 id: room
-group: 14
+group: 15
 title: Room
 date: 2022
 images:

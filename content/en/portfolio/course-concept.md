@@ -1,7 +1,7 @@
 ---
-id: course-concept
-group: 4
-title: Concept
+id: course_concept
+group: 3
+title: Concept art courses
 date: 2022
 images:
   - 'mask'

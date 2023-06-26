@@ -1,6 +1,6 @@
 ---
-id: course-sketch
-group: 8
+id: course_sketch
+group: 4
 title: Course sketch
 date: 2022
 images:
