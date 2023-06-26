@@ -21,7 +21,7 @@ const head = {
     { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
   ],
   link: [
-    { rel: 'icon', type: 'Image/x-icon', href: '/favicon.ico' },
+    { rel: 'icon', type: 'Image/x-icon', href: '/portfolio/favicon.ico' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
   ],
 };
