@@ -6,7 +6,7 @@
   }
 
   &.active {
-    min-width: 350px;
+    // min-width: 350px;
 
     .card-wrap {
       position: fixed;
@@ -28,12 +28,14 @@
     }
   }
 
+  .card-wrap-substitute,
   .card-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all .3s;
 
+    .image-substitute,
     .image {
       object-fit: cover;
 

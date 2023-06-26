@@ -3,12 +3,19 @@
   :class="{ 'active': active }"
   @click="turnActive()"
 >
-  <div
-    class="card-wrap d-flex flex-column align-items-center jc-center"
-  >
+  <div class="card-wrap d-flex flex-column align-items-center jc-center">
     <img
       class="image darker"
-      v-lazy="require(`~/assets/images/portfolio/${img}.jpg`)"
+      v-lazy="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
+      width="100%"
+      height="350px"
+      :alt="img"
+    >
+  </div>
+
+  <div v-if="active" class="card-wrap-substitute d-flex flex-column align-items-center jc-center">
+    <img
+      class="image-substitute darker"
       :src="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
       width="100%"
       height="350px"
