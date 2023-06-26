@@ -12,20 +12,18 @@ const publicRuntimeConfig = {
 };
 
 const head = {
-  head: {
-    title: process.env.META_TITLE,
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', hid: 'description', content: process.env.META_DESCRIPTION },
-      { name: 'format-detection', hid: 'format-detection', content: 'telephone=no' },
-      { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
-    ],
-    link: [
-      { rel: 'icon', type: 'Image/x-icon', href: '/favicon.ico' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-    ],
-  },
+  title: process.env.META_TITLE,
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'description', hid: 'description', content: process.env.META_DESCRIPTION },
+    { name: 'format-detection', hid: 'format-detection', content: 'telephone=no' },
+    { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
+  ],
+  link: [
+    { rel: 'icon', type: 'Image/x-icon', href: '/favicon.ico' },
+    { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+  ],
 };
 
 const webfontloader = {
