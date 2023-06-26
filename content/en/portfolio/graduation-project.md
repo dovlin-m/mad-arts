@@ -4,10 +4,10 @@ group: 5
 title: Graduation project
 date: 2022
 images:
-- 'decoration'
-- 'title'
-- 'font'
-- 'spread_one'
+- 'decoration/col-sm-4'
+- 'title/col-sm-4'
+- 'font/col-sm-4'
+- 'spread_one/col-sm-8'
 - 'house'
 - 'woman_sketch'
 - 'spread_two'

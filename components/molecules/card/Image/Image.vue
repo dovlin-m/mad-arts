@@ -9,6 +9,10 @@ export default defineComponent({
       type: String,
       required: true,
     },
+    customClass: {
+      type: String,
+      default: '',
+    },
   },
 
   data: () => ({
@@ -18,7 +22,6 @@ export default defineComponent({
   methods: {
     turnActive () {
       this.active = !this.active;
-      console.log('this.active', this.active);
     },
   },
 });

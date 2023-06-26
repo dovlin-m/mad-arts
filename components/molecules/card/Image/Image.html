@@ -1,6 +1,10 @@
 <div
-  class="card-image flex-grow-1 rounded-2 col-sm-6 col-lg-4"
-  :class="{ 'active': active }"
+  class="card-image"
+  :class="{
+    'active': active,
+    'col-sm-4': !customClass,
+    [customClass]: customClass,
+  }"
   @click="turnActive()"
 >
   <div class="card-wrap d-flex flex-column align-items-center jc-center">
@@ -8,7 +12,7 @@
       class="image darker"
       v-lazy="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
       width="100%"
-      height="350px"
+      height="auto"
       :alt="img"
     >
   </div>
@@ -18,7 +22,7 @@
       class="image-substitute darker"
       :src="require(`~/assets/images/portfolio/${img}.jpg?webp`)"
       width="100%"
-      height="350px"
+      height="auto"
       :alt="img"
     >
   </div>

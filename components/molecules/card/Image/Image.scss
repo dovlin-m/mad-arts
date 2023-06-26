@@ -2,11 +2,11 @@
   cursor: pointer;
 
   @media #{map-get($display-breakpoints, 'sm')} {
-    height: 220px;
+    //height: 220px;
   }
 
   @media #{map-get($display-breakpoints, 'lg')} {
-    height: 350px;
+    //height: 350px;
   }
 
   &.active {
@@ -34,9 +34,6 @@
 
   .card-wrap-substitute,
   .card-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: all .3s;
 
     .image-substitute,

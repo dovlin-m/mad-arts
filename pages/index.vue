@@ -16,13 +16,14 @@
             <h2 class="text-gray mb-0" v-text="title" />
           </div>
 
-          <div class="d-flex flex-wrap row-gap-4 column-gap-4">
+          <atoms-grid-row class="row-gap-4 column-gap-4">
             <molecules-card-image
               v-for="img in images"
               :key="img"
-              :img="`${slug}/${img}`"
+              :img="`${slug}/${img.split('/')[0]}`"
+              :custom-class="img.split('/')[1]"
             />
-          </div>
+          </atoms-grid-row>
 
           <div class="d-flex flex-column row-gap-2 mt-4">
             <!--
@@ -57,6 +58,7 @@ export default defineComponent({
         await this.$content(`${this.$i18n.locale}/portfolio`, { deep: true }).fetch();
 
     this.portfolio.sort((a, b) => Number(a.group) - Number(b.group));
+    console.log('portfolio', this.portfolio);
   },
 });
 </script>
