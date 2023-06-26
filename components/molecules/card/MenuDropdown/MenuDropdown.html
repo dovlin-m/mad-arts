@@ -1,19 +1,8 @@
 <atoms-dropdown-box :active="active">
   <template #button>
-    <button
-      type="button"
-      class="btn-menu d-flex align-items-center"
-      :aria-label="$t('header.menu')"
-      @click="turnActive()"
-    >
-      <p class="text-body text-darker mb-0" v-text="$t('header.menu')" />
-
-      <img
-        class="icon-chevron ml-1"
-        :src="require(`~/assets/images/icons/chevron.svg`)"
-        alt="chevron"
-      />
-    </button>
+    <div class='d-flex align-items-center'>
+      <atoms-button-toggle :active="active" @click.native="turnActive()" />
+    </div>
   </template>
 
   <template #dropdown-menu>

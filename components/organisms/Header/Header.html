@@ -3,11 +3,9 @@
     <header class="d-flex align-items-center jc-space-between py-4 py-lg-6">
       <div class="d-flex align-items-center">
         <atoms-logo class="mr-8" />
-
-        <molecules-card-menu-dropdown />
       </div>
 
-      <div class="d-flex align-items-center row-gap-3">
+      <div class="d-flex align-items-center column-gap-4">
         <div class="d-flex jc-center column-gap-2">
           <template v-for="locale in $i18n.locales">
             <component
@@ -29,6 +27,8 @@
           active-class="active"
           v-text="$t(`header.${id}`)"
         />
+
+        <molecules-card-menu-dropdown />
       </div>
     </header>
   </div>

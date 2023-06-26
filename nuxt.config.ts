@@ -89,7 +89,7 @@ const i18n = {
 };
 
 const compilerOptions = {
-  types: ['@nuxtjs/i18n'],
+  types: ['@nuxtjs/i18n', '@nuxt/content'],
 };
 
 const plugins = [
@@ -101,6 +101,7 @@ const modules = [
   'nuxt-webfontloader',
   '@nuxtjs/style-resources',
   '@nuxt/content',
+  'nuxt-viewport',
 ];
 
 const build = {
@@ -141,6 +142,23 @@ const optimizedImages = {
   svgo: {},
 };
 
+const viewport = {
+  breakpoints: {
+    xs: 0,
+    sm: 768,
+    lg: 1220,
+  },
+
+  cookieName: 'viewport',
+
+  defaultBreakpoints: {
+    sm: 'sm',
+    lg: 'lg',
+  },
+
+  fallbackBreakpoint: 'lg',
+};
+
 export default {
   ssr: false,
 
@@ -170,4 +188,5 @@ export default {
   typescript,
   i18n,
   optimizedImages,
+  viewport,
 };

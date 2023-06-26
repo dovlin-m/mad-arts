@@ -6,11 +6,11 @@
     position: absolute;
     background: rgba(241, 241, 244, 0.7);
     backdrop-filter: blur(32px);
-    margin-top: 18px;
+    margin-top: 16px;
 
     z-index: -1;
 
-    @media #{map-get($display-breakpoints, 'sm')} {
+    @media #{map-get($display-breakpoints, 'lg')} {
       margin-top: 24px;
     }
 

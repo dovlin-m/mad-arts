@@ -1,0 +1,53 @@
+.btn-toggle {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  border: 0;
+  background: none;
+
+  span {
+    position: absolute;
+    right: 2px;
+    height: 2px;
+    width: 18px;
+    background: map-get($colors, 'dark');
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      top: 6.5px;
+    }
+
+    &:nth-child(3) {
+      top: 11.5px;
+      width: 14px;
+    }
+
+    &:nth-child(4) {
+      top: 16.5px;
+      width: 10px;
+    }
+  }
+}
+
+.active span {
+  &:nth-child(1) {
+    top: 11px;
+    transform: rotate(45deg);
+  }
+
+  &:nth-child(2) {
+    top: 11px;
+    transform: rotate(-45deg);
+  }
+
+  &:nth-child(3),
+  &:nth-child(4) {
+    top: 11px;
+    width: 0;
+    right: 50%;
+  }
+}
