@@ -2,7 +2,7 @@
 id: yoga
 group: 6
 title: Yoga - clothing brand
-date: 2022
+date: 2021
 images:
 - 'banner/col-sm-3'
 - 'palette/col-sm-3'

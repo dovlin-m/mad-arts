@@ -29,7 +29,7 @@ const head = {
 const webfontloader = {
   custom: {
     urls: [
-      'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+      'https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap',
     ],
   },
 };

@@ -19,9 +19,15 @@ export default defineComponent({
     active: false,
   }),
 
+  computed: {
+    isLessThanSm (): Boolean {
+      return this.$viewport.isLessThan('sm');
+    },
+  },
+
   methods: {
     turnActive () {
-      this.active = !this.active;
+      this.active = this.isLessThanSm ? false : !this.active;
     },
   },
 });

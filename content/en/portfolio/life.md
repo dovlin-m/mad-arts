@@ -1,8 +1,8 @@
 ---
 id: life
-group: 11
+group: 16
 title: '"Life"'
-date: 2022
+date: 2020
 images:
 - 'life/col-sm-3'
 - 'main/col-sm-3'

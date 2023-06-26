@@ -1,10 +1,10 @@
 ---
 id: room
-group: 15
+group: 19
 title: Room
-date: 2022
+date: 2019
 images:
-- 'banner'
+- 'banner/col-sm-3'
 - 'room'
-- 'scan'
+- 'scan/col-sm-5'
 ---

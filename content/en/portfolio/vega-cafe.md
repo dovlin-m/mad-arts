@@ -1,21 +1,20 @@
 ---
 id: vega_cafe
-group: 20
+group: 15
 title: Vega cafe
-date: 2022
+date: 2020
 images:
-  - 'qr_vega'
-  - 'logo_1'
+  - 'advertising_5/col-sm-3'
+  - 'advertising_6/col-sm-3'
+  - 'advertising/col-sm-3'
+  - 'advertising_3/col-sm-3'
   - 'logo_2'
-  - 'advertising'
-  - 'logo_3'
-  - 'advertising_2'
-  - 'advertising_3'
-  - 'sketch_1'
-  - 'advertising_4'
-  - 'advertising_5'
-  - 'advertising_6'
+  - 'logo_5'
+  - 'logo_1'
+  - 'advertising_2/col-sm-3'
+  - 'qr_vega/col-sm-6'
+  - 'advertising_4/col-sm-3'
   - 'logo_4'
   - 'plants_purple'
-  - 'logo_5'
+  - 'logo_3'
 ---

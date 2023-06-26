@@ -1,8 +1,8 @@
 ---
 id: plener
-group: 9
+group: 10
 title: Plener
-date: 2022
+date: 2019 - 2020
 images:
 - 'street/col-sm-6'
 - 'dog/col-sm-3'

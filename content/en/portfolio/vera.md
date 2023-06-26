@@ -2,7 +2,7 @@
 id: vera
 group: 8
 title: A series of sketches "Vera"
-date: 2022
+date: 2019
 images:
   - 'vera_7/col-sm-3'
   - 'vera_6/col-sm-3'

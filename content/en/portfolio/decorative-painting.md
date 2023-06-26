@@ -1,18 +1,20 @@
 ---
 id: decorative_painting
-group: 13
+group: 11
 title: Decorative painting
-date: 2022
+date: 2020 - 2021
 images:
-- 'purple_man'
-- 'yandex_delivery'
-- 'sketch_pharaoh'
-- 'pharaoh'
-- 'girl_with_frog'
-- 'girl_with_horns'
-- 'succubus'
-- 'lil_peep'
-- 'vera_golden'
-- 'boy'
-- 'girl_sun'
+  - 'purple_man/col-sm-3'
+  - 'yandex_delivery/col-sm-3'
+  - 'sketch_pharaoh/col-sm-3'
+  - 'pharaoh/col-sm-3'
+  - 'girl_with_frog/col-sm-3'
+  - 'girl_with_horns/col-sm-3'
+  - 'succubus/col-sm-3'
+  - 'lil_peep/col-sm-3'
+  - 'vera_golden/col-sm-3'
+  - 'boy/col-sm-3'
+  - 'girl_sun/col-sm-6'
+  - 'coffee/col-sm-3'
+  - 'icon/col-sm-2'
 ---

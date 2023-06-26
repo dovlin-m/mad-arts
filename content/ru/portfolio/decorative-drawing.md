@@ -4,7 +4,8 @@ group: 19
 title: Декоративный рисунок
 date: 2022
 images:
-- 'sketch'
-- 'sketch_2'
-- 'sketch_3'
+  - 'sketch/col-sm-3'
+  - 'sketch_2/col-sm-6'
+  - 'sketch_3/col-sm-3'
+  - 'sketch_7/col-sm-6'
 ---

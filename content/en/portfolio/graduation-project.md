@@ -2,7 +2,7 @@
 id: graduation_project
 group: 5
 title: Graduation project
-date: 2022
+date: 2021
 images:
 - 'decoration/col-sm-3'
 - 'title'
