@@ -2,7 +2,7 @@
 id: font
 group: 17
 title: Шрифты
-date: 2022
+date: 2018 - 2019
 images:
 - 'font_2/col-sm-3'
 - 'font_1/col-sm-6'

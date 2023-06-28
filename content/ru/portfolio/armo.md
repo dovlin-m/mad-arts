@@ -1,8 +1,8 @@
 ---
 id: armo
-group: 12
+group: 14
 title: '"Armo" - хоккейная команда'
-date: 2022
+date: 2021
 images:
 - 'logo_1'
 - 'logo_2'

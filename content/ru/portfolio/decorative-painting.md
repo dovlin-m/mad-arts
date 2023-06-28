@@ -1,8 +1,8 @@
 ---
 id: decorative_painting
-group: 13
+group: 11
 title: Декоративная живопись
-date: 2022
+date: 2020 - 2021
 images:
   - 'purple_man/col-sm-3'
   - 'yandex_delivery/col-sm-3'

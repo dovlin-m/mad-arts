@@ -53,7 +53,6 @@ export default defineComponent({
         await this.$content(`${this.$i18n.locale}/portfolio`, { deep: true }).fetch();
 
     this.portfolio.sort((a, b) => Number(a.group) - Number(b.group));
-    console.log('portfolio', this.portfolio);
   },
 });
 </script>

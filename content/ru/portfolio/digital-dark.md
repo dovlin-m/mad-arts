@@ -2,7 +2,7 @@
 id: digital_dark
 group: 2
 title: Digital dark
-date: 2022
+date: 2020 - 2023
 images:
 - 'scared'
 - 'ukraine'

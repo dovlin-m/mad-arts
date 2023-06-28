@@ -1,8 +1,8 @@
 ---
 id: decorative_drawing
-group: 19
+group: 13
 title: Декоративный рисунок
-date: 2022
+date: 2020
 images:
   - 'sketch/col-sm-3'
   - 'sketch_2/col-sm-6'

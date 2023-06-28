@@ -2,7 +2,7 @@
 id: digital
 group: 1
 title: Digital
-date: 2022
+date: 2020 - 2023
 images:
   - 'russian-girl'
   - 'tomato'

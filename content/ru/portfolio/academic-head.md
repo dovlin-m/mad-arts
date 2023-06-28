@@ -1,8 +1,8 @@
 ---
 id: academic_head
-group: 7
+group: 9
 title: Академические головы
-date: 2022
+date: 2017 - 2019
 images:
   - 'face_12/col-sm-4'
   - 'face_1/col-sm-4'

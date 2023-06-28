@@ -2,7 +2,7 @@
 id: course_sketch
 group: 4
 title: Курсы - эскизы
-date: 2022
+date: 2022 - 2023
 images:
   - 'tree/col-sm-6'
   - 'type_of_characters/col-sm-6'

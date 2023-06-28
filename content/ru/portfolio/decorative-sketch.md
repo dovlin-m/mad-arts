@@ -1,8 +1,8 @@
 ---
 id: decorative_sketch
-group: 16
+group: 20
 title: Декоративные эскизы
-date: 2022
+date: 2018
 images:
   - 'crying_girl'
   - 'young_girl'
