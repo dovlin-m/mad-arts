@@ -150,9 +150,9 @@ export default {
   router: {
     base: '/mad-arts/',
   },
+
   components: true,
   publicRuntimeConfig,
-  // components,
   head,
   webfontloader,
   plugins,

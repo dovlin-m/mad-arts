@@ -1,6 +1,6 @@
 <template>
   <section class="wrapper-banner" :style="{ height: `${bannerImageHeight}px`}">
-    <img ref="banner" src="/assets/banner.webp" alt="banner monk and old woman" class="banner">
+    <img ref="banner" :src="require('~/assets/images/banner.webp')" alt="banner monk and old woman" class="banner">
   </section>
 </template>
 
