@@ -1,6 +1,6 @@
 ---
 id: vega_cafe
-group: 15
+group: 16
 title: Vega cafe
 date: 2020
 images:

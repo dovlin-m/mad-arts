@@ -1,6 +1,6 @@
 ---
 id: yoga
-group: 6
+group: 7
 title: Йога - бренд одежды
 date: 2021
 images:

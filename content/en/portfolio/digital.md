@@ -9,7 +9,7 @@ images:
   - 'lemon'
   - 'grandmother_and_cat'
   - 'grandparent_2'
-  - 'grandparents'
+  - 'vera_2'
   - 'girl_on_case'
   - 'mouse_girl'
   - 'girl_yoga'

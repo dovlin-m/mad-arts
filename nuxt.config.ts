@@ -1,7 +1,9 @@
 import 'dotenv-defaults/config';
+import { availableLocales, dateTimeFormats } from './utils/locales';
 
 const dev: boolean = process.env.NODE_ENV !== 'production';
 const baseUrl: string | undefined = dev ? process.env.BASE_URL : `http://${process.env.HOST}:${process.env.PORT}/`;
+const languages = ['en', 'ru'];
 
 const publicRuntimeConfig = {
   PORT: process.env.PORT,
@@ -42,8 +44,6 @@ const typescript = {
   },
 };
 
-const components = true;
-
 const buildModules = [
   '@nuxt/typescript-build',
   '@aceforth/nuxt-optimized-images',
@@ -57,35 +57,20 @@ const styleResources = {
 };
 
 const i18n = {
-  locales: [
-    {
-      name: 'English',
-      code: 'en',
-      iso: 'en-GB',
-      file: 'en.ts',
-    },
-    {
-      name: 'Русский',
-      code: 'ru',
-      iso: 'ru-MD',
-      file: 'ru.ts',
-    },
-  ],
-  detectBrowserLanguage: {
-    useCookie: true,
-    cookieKey: 'cp__locale',
-    redirectOn: 'root',
-  },
   baseUrl,
-  lazy: true,
-  seo: false,
-  langDir: 'utils/locales/',
-  defaultLocale: process.env.LOCALE,
+  detectBrowserLanguage: false,
+  locales: availableLocales(languages),
   vueI18nLoader: true,
   vueI18n: {
+    dateTimeFormats: dateTimeFormats(languages),
+    fallbackLocale: languages[0],
     silentTranslationWarn: true,
-    fallbackLocale: process.env.LOCALE,
   },
+  lazy: {
+    skipNuxtState: true,
+  },
+  langDir: 'i18n/',
+  defaultLocale: languages[0],
 };
 
 const compilerOptions = {
@@ -106,7 +91,6 @@ const modules = [
 
 const build = {
   extractCSS: true,
-
   babel: {
     compact: true,
     presets (_: any) {
@@ -161,30 +145,23 @@ const viewport = {
 
 export default {
   ssr: false,
-
   target: 'static',
+
   router: {
     base: '/mad-arts/',
   },
+  components: true,
   publicRuntimeConfig,
-
-  components,
-
+  // components,
   head,
   webfontloader,
-
   plugins,
-
   buildModules,
-
   modules,
   compilerOptions,
-
   build,
-
   styleResources,
   css: ['~assets/scss/styles.scss'],
-
   typescript,
   i18n,
   optimizedImages,

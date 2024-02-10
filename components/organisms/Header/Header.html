@@ -14,7 +14,7 @@
               :href="locale.code === $i18n.locale ? null : menuLocale[locale.code]"
               :to="locale.code === $i18n.locale ? null : menuLocale[locale.code]"
               :class="{ 'text-bold': locale.code === $i18n.locale }"
-              class="link-locale link-none text-uppercase text-body"
+              class="link-locale text-gray link-none text-uppercase text-body"
               v-text="locale.code"
             />
           </template>
@@ -22,7 +22,7 @@
 
         <nuxt-link
           v-for="{ id, nuxtHref } of menu" :key="id"
-          class="text-body ml-2 mb-0"
+          class="text-body text-gray ml-2 mb-0"
           :to="localePath(nuxtHref)"
           active-class="active"
           v-text="$t(`header.${id}`)"

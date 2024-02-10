@@ -1,6 +1,6 @@
 ---
 id: vera
-group: 8
+group: 9
 title: Серия эскизов "Вера"
 date: 2019
 images:

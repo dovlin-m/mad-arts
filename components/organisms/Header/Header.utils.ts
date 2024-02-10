@@ -1,4 +1,4 @@
-import { NavOption } from '@/utils/types/nav';
+import { NavOption } from '~/types/nav';
 
 export const NavMenu: NavOption[] = [
   /*

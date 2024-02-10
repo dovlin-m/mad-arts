@@ -1,6 +1,6 @@
 ---
 id: decorative_sketch
-group: 20
+group: 21
 title: Декоративные эскизы
 date: 2018
 images:

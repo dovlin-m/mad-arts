@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { NavMenu } from './Header.utils';
-import { NavOption } from '@/utils/types/nav';
+import { NavOption } from '~/types/nav';
 
 export default defineComponent({
   name: 'OrganismsHeader',

@@ -1,6 +1,6 @@
 ---
 id: vera
-group: 8
+group: 9
 title: A series of sketches "Vera"
 date: 2019
 images:

@@ -1,6 +1,6 @@
 ---
 id: decorative_drawing
-group: 13
+group: 14
 title: Декоративный рисунок
 date: 2020
 images:

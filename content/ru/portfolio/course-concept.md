@@ -1,6 +1,6 @@
 ---
 id: course_concept
-group: 3
+group: 6
 title: Курсы концепт арта
 date: 2022 - 2023
 images:

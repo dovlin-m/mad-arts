@@ -1,6 +1,6 @@
 ---
 id: life
-group: 16
+group: 17
 title: '"Жизнь"'
 date: 2022
 images:

@@ -1,6 +1,6 @@
 ---
 id: decorative_painting
-group: 11
+group: 12
 title: Decorative painting
 date: 2020 - 2021
 images:

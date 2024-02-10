@@ -1,6 +1,6 @@
 ---
 id: academic_head
-group: 9
+group: 10
 title: Академические головы
 date: 2017 - 2019
 images:

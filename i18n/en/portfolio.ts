@@ -94,4 +94,7 @@ export const portfolio = {
     'To create these sketches, I quickly made a couple of pencil sketches. Then I moved on to the marker, which seemed to me faster and irreversible in that nothing can be erased. This approach helped me improve the efficiency of each sketch without getting hung up on mistakes.',
     'The result is a series of dynamic and spontaneous drawings that showcase the energy and character of Vera. Each sketch is a snapshot of a moment, capturing the essence of the person and their surroundings in a swift and expressive manner.',
   ],
+  avatar: [
+    'Self-portrait in several color schemes for avatar on social networks',
+  ],
 };

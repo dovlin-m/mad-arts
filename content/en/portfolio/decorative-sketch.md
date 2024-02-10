@@ -1,6 +1,6 @@
 ---
 id: decorative_sketch
-group: 20
+group: 21
 title: Decorative sketch
 date: 2018
 images:

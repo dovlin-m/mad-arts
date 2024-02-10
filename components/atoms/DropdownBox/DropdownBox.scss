@@ -1,11 +1,9 @@
 .dropdown-box {
   position: relative;
-  // display: inline-block;
 
   .dropdown-wrapper {
     position: absolute;
-    background: rgba(241, 241, 244, 0.7);
-    backdrop-filter: blur(32px);
+    background: rgb(36, 26, 42);
     margin-top: 16px;
 
     z-index: -1;
@@ -29,8 +27,7 @@
       opacity: 0;
 
       overflow: scroll;
-      background: rgba(241, 241, 244, 0.7);
-      backdrop-filter: blur(32px);
+      background: rgb(36, 26, 42);
 
       transition: all .3s, top .3s;
       z-index: -1;

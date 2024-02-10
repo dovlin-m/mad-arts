@@ -1,6 +1,6 @@
 ---
 id: room
-group: 19
+group: 20
 title: Room
 date: 2019
 images:

@@ -1,6 +1,6 @@
 ---
 id: academic_drawing
-group: 7
+group: 8
 title: Академический рисунок
 date: 2017 - 2021
 images:

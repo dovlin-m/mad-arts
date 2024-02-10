@@ -1,6 +1,6 @@
 ---
 id: room
-group: 19
+group: 20
 title: Комната
 date: 2022
 images:

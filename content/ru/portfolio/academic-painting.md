@@ -1,6 +1,6 @@
 ---
 id: academic_painting
-group: 12
+group: 13
 title: Академическая живопись
 date: 2018 - 2020
 images:

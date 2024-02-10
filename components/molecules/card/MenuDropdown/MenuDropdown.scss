@@ -1,7 +1,14 @@
 .dropdown-box /deep/ .dropdown-wrapper {
-  // padding-top: 23px !important;
-  right: 0;
+  right: -16px;
   width: 212px;
+
+  @media #{map-get($display-breakpoints, 'sm')} {
+    right: -32px;
+  }
+
+  @media #{map-get($display-breakpoints, 'lg')} {
+    right: 0;
+  }
 }
 
 .dropdown-box /deep/ .box {
@@ -16,20 +23,21 @@
 .btn-menu-profile {
   display: block;
   width: 100%;
-  background: none;
-  border: none;
+  background: transparent;
+  border: transparent;
   text-align: left;
   cursor: pointer;
 
   &:hover {
-    background-color: map-get($colors, 'gray');
+    background-color: rgba(255, 255, 255, 0.15);
   }
 }
 
 .btn-menu {
   padding: 0;
   margin: 0;
-  background: none;
-  border: none;
+  background: transparent;
+  border: transparent;
+
   @include text-body;
 }

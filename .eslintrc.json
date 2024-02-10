@@ -5,6 +5,9 @@
     "node": true
   },
   "extends": [
+    "@nuxtjs",
+    "prettier",
+    "plugin:nuxt/recommended",
     "@nuxtjs/eslint-config-typescript"
   ],
   "parser": "vue-eslint-parser",
@@ -12,38 +15,33 @@
     "parser": "@typescript-eslint/parser"
   },
   "plugins": [
+    "prettier",
     "@typescript-eslint"
   ],
   "rules": {
     "camelcase": "off",
-    "object-shorthand": "off",
+    "no-console": "off",
     "semi": ["error", "always"],
-    "max-classes-per-file": "off",
-    "class-methods-use-this": "off",
+    "no-trailing-spaces": "off",
+    "quotes": ["error", "single"],
+    "object-curly-spacing": ["error", "always"],
     "comma-dangle": ["error", "always-multiline"],
 
-    "guard-for-in": "off",
-    "func-names": "off",
-    "consistent-return": "off",
-    "no-param-reassign": "off",
-
-    "no-shadow": "off",
-    "no-console": "off",
-    "no-plusplus": "off",
-    "no-cond-assign": "off",
-    "no-return-await": "off",
-    "no-underscore-dangle": "off",
-    "no-restricted-syntax": "off",
-    "no-restricted-globals": "off",
-    "node/no-callback-literal": "off",
-    "vue/no-v-html": "off",
-    "vue/custom-event-name-casing": "off",
-    "vue/component-definition-name-casing": ["error", "PascalCase"],
-    "vue/component-name-in-template-casing": ["error", "kebab-case"],
+    "import/named": "off",
     "import/extensions": "off",
-    "import/no-import-module-exports": "off",
+    "import/no-mutable-exports": "off",
     "import/prefer-default-export": "off",
+    "import/newline-after-import": "error",
+    "import/no-import-module-exports": "off",
     "import/no-extraneous-dependencies": "off",
-    "import/namespace": ["error", { "allowComputed": true }]
+    "import/namespace": ["error", { "allowComputed": true }],
+
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+
+    "vue/no-v-html": "off",
+    "vue/require-default-prop": "off",
+    "vue/max-attributes-per-line": "off"
   }
 }

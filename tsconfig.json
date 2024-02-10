@@ -6,46 +6,44 @@
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
-      "DOM"
+      "DOM",
     ],
-    "noImplicitAny": false,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "removeComments": true,
-    "declaration": true,
-    "declarationDir": "types",
-    "strictPropertyInitialization": true,
-    "strictFunctionTypes": true,
-    "resolveJsonModule": true,
-
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
     "noEmit": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "pretty": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
     "types": [
-      "@nuxt/types",
       "@nuxt/typescript-build",
-      "@types/node",
-      "@nuxtjs/i18n",
       "@nuxt/content",
-      "nuxt-viewport"
+      "@nuxtjs/i18n",
+      "@types/node",
+      "@nuxt/types",
+      "node"
     ]
   },
   "include": [
-    "./vue-shim.d.ts",
+    "./**.d.ts",
     "./**/*.ts",
-    "./**/*.vue"
+    "./**/*.vue",
   ],
   "exclude": [
+    "node_modules",
     ".nuxt",
-    "dist",
-    "node_modules"
+    "dist"
   ]
 }

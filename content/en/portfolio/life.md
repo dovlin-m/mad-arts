@@ -1,6 +1,6 @@
 ---
 id: life
-group: 16
+group: 17
 title: '"Life"'
 date: 2020
 images:

@@ -1,6 +1,6 @@
 ---
 id: plener
-group: 10
+group: 11
 title: Plener
 date: 2019 - 2020
 images:
