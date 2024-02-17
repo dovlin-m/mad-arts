@@ -28,15 +28,15 @@ const turnActive = () => {
         'fixed inset-0 overflow-auto m-0 bg-black/50': active,
       }"
     >
-      <NuxtImg
+      <img
         :src="`/assets/images/portfolio/${img}.jpg`"
         loading="lazy"
         :class="{
           'sm:h-56 lg:h-96 w-full object-cover': !active,
           'h-auto w-auto max-h-[70vh] max-w-[70vh] object-contain': active,
         }"
-        format="webp"
-      />
+        :alt="img"
+      >
     </div>
   </div>
 </template>
