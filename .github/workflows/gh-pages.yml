@@ -28,8 +28,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+        env:
+          NODE_ENV: production
 
-      - run: env
       - run: npm install
       - run: npx nuxi generate
 
