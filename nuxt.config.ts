@@ -1,7 +1,7 @@
 import { availableLocales } from './utils/locales';
 
-const dev: boolean = process.env.NODE_ENV !== 'production';
-const baseUrl: string | undefined = dev ? process.env.BASE_URL : '';
+// const dev: boolean = process.env.NODE_ENV !== 'production';
+const baseUrl: string = '/mad-arts/';
 const title = 'Mad-arts';
 const languages = ['en', 'ru'];
 
