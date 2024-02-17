@@ -18,7 +18,7 @@ jobs:
 
       # Pick your own package manager and build script
       - run: npm install
-      - run: npm nuxi generate
+      - run: npx nuxi generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
