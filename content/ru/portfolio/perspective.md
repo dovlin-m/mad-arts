@@ -4,8 +4,8 @@ group: 19
 title: Перспектива
 date: 2018
 images:
-  - 'sketch_3/col-sm-6'
-  - 'sketch_5/col-sm-6'
+  - 'sketch_3 sm:col-span-6'
+  - 'sketch_5 sm:col-span-6'
   - 'sketch_1'
   - 'sketch_4'
   - 'sketch_2'

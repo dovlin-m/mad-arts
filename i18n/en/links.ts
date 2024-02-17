@@ -1,3 +1,3 @@
-export const links = {
+export default {
   detailed: 'More detailed',
 };

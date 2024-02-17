@@ -2,9 +2,9 @@
 id: room
 group: 20
 title: Комната
-date: 2022
+date: 2019
 images:
-  - 'banner/col-sm-3'
+  - 'banner sm:col-span-3'
   - 'room'
-  - 'scan/col-sm-5'
+  - 'scan sm:col-span-5'
 ---

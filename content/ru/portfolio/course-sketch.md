@@ -4,10 +4,10 @@ group: 4
 title: Курсы - эскизы
 date: 2022 - 2023
 images:
-  - 'tree/col-sm-6'
-  - 'type_of_characters/col-sm-6'
-  - 'buildings/col-sm-6'
-  - 'machines/col-sm-6'
-  - 'silhouettes/col-sm-6'
-  - 'buldings_light/col-sm-6'
+  - 'tree sm:col-span-6'
+  - 'type_of_characters sm:col-span-6'
+  - 'buildings sm:col-span-6'
+  - 'machines sm:col-span-6'
+  - 'silhouettes sm:col-span-6'
+  - 'buldings_light sm:col-span-6'
 ---

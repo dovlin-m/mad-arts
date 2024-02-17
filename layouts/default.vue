@@ -1,15 +1,11 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <main class="darker">
+  <main>
     <organisms-header />
-    <nuxt />
+    <slot />
     <organisms-footer />
   </main>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'DefaultPage',
-});
-</script>

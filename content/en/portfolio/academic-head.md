@@ -4,14 +4,14 @@ group: 10
 title: Academic heads
 date: 2017 - 2019
 images:
-  - 'face_12/col-sm-4'
-  - 'face_1/col-sm-4'
-  - 'face_8/col-sm-4'
-  - 'face_2/col-sm-3'
-  - 'face_11/col-sm-3'
-  - 'face_6/col-sm-3'
-  - 'face_5/col-sm-3'
-  - 'face_3/col-sm-4'
-  - 'face_10/col-sm-4'
-  - 'face_13/col-sm-4'
+  - 'face_12'
+  - 'face_1'
+  - 'face_8'
+  - 'face_2 sm:col-span-3'
+  - 'face_11 sm:col-span-3'
+  - 'face_6 sm:col-span-3'
+  - 'face_5 sm:col-span-3'
+  - 'face_3'
+  - 'face_10'
+  - 'face_13'
 ---

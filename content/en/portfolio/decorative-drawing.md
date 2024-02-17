@@ -4,8 +4,8 @@ group: 14
 title: Decorative drawing
 date: 2020
 images:
-  - 'sketch/col-sm-3'
-  - 'sketch_2/col-sm-6'
-  - 'sketch_3/col-sm-3'
-  - 'sketch_7/col-sm-6'
+  - 'sketch sm:col-span-3'
+  - 'sketch_2 sm:col-span-6'
+  - 'sketch_3 sm:col-span-3'
+  - 'sketch_7 sm:col-span-6'
 ---
