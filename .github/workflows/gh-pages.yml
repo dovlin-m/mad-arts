@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - master
+      - upgrade_to_nuxt_3
   pull_request:
 
 jobs:
@@ -30,11 +30,11 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm install
-      - run: npm run generate
+      - run: npx nuxi generate
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./output/public

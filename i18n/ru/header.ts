@@ -1,4 +1,4 @@
-export const header = {
+export default {
   portfolio: 'Портфолио',
   resume: 'Резюме',
   menu: 'Меню',

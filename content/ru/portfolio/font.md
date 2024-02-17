@@ -4,9 +4,9 @@ group: 18
 title: Шрифты
 date: 2018 - 2019
 images:
-- 'font_2/col-sm-3'
-- 'font_1/col-sm-6'
-- 'font_3/col-sm-3'
-- 'font_4/col-sm-6'
-- 'font_5/col-sm-3'
+- 'font_2 sm:col-span-3'
+- 'font_1 sm:col-span-6'
+- 'font_3 sm:col-span-3'
+- 'font_4 sm:col-span-6'
+- 'font_5 sm:col-span-3'
 ---

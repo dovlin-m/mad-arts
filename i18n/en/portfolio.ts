@@ -1,4 +1,4 @@
-export const portfolio = {
+export default {
   digital: [
     'This and next groups of drawings was created using Procreate. As an artist, I have devoted several years to mastering this digital medium, honing my skills and exploring the vast possibilities it offers.',
     'Using Procreate as my canvas, I experimented with different brushes and captured fleeting moments that resonated with me.',

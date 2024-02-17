@@ -1,26 +1,42 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
-  // add your custom config here
-  // https://stylelint.io/user-guide/configuration
-  plugins: ['stylelint-scss', 'stylelint-prettier'],
+  extends: [
+    'stylelint-config-standard-scss' ,
+    'stylelint-config-recommended-vue/scss',
+  ],
   rules: {
-    'prettier/prettier': true,
-    'at-rule-no-unknown': null,
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+        ],
+      },
+    ],
     'no-descending-specificity': null,
     'no-empty-source': null,
     'declaration-empty-line-before': null,
-    'scss/at-rule-no-unknown': true,
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: 'first-nested',
+        ignore: 'blockless-after-same-name-blockless',
+      },
+    ],
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind', 'tailwind.scss', 'apply'],
+      },
+    ],
     'color-hex-length': 'long',
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: ['global', 'deep'],
-      },
-    ],
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: ['v-deep'],
+        ignorePseudoClasses: ['deep'],
       },
     ],
   },

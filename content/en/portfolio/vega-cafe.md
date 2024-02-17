@@ -4,16 +4,16 @@ group: 16
 title: Vega cafe
 date: 2020
 images:
-  - 'advertising_5/col-sm-3'
-  - 'advertising_6/col-sm-3'
-  - 'advertising/col-sm-3'
-  - 'advertising_3/col-sm-3'
+  - 'advertising_5 sm:col-span-3'
+  - 'advertising_6 sm:col-span-3'
+  - 'advertising sm:col-span-3'
+  - 'advertising_3 sm:col-span-3'
   - 'logo_2'
   - 'logo_5'
   - 'logo_1'
-  - 'advertising_2/col-sm-3'
-  - 'qr_vega/col-sm-6'
-  - 'advertising_4/col-sm-3'
+  - 'advertising_2 sm:col-span-3'
+  - 'qr_vega sm:col-span-6'
+  - 'advertising_4 sm:col-span-3'
   - 'logo_4'
   - 'plants_purple'
   - 'logo_3'
