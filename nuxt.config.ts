@@ -6,8 +6,6 @@ const title = 'Mad-arts';
 const languages = ['en', 'ru'];
 
 export default defineNuxtConfig({
-  ssr: false,
-
   runtimeConfig: {
     public: {
       title,
@@ -56,9 +54,6 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
-    experimental: {
-      clientDB: true,
-    },
   },
 
   googleFonts: {
@@ -85,18 +80,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    prerender: {
-      routes: [
-        '/_ipx/q_80&fit_cover&s_64x64/assets/images/logo/russian-girl.jpg',
-        '/_ipx/q_80&fit_cover&s_128x128/assets/images/logo/russian-girl.jpg',
-        '/_ipx/w_640&q_80/assets/images/banner.webp',
-        '/_ipx/w_1280&q_80/assets/images/banner.webp',
-        '/_ipx/w_1024&q_80/assets/images/banner.webp',
-        '/_ipx/w_2048&q_80/assets/images/banner.webp',
-        '/_ipx/w_2560&q_80/assets/images/banner.webp',
-        '/_ipx/q_50&blur_3&s_10x10/assets/images/banner.webp',
-      ],
-    },
+    static: true,
   },
 
   i18n: {
