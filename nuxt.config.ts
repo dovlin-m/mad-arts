@@ -1,6 +1,9 @@
+import { availableLocales } from './utils/locales';
+
 // const dev: boolean = process.env.NODE_ENV !== 'production';
 const baseUrl: string = '/mad-arts/';
 const title = 'Mad-arts';
+const languages = ['en', 'ru'];
 
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -86,22 +89,10 @@ export default defineNuxtConfig({
     },
     lazy: true,
     langDir: './i18n',
-    locales: [
-      {
-        name: 'English',
-        code: 'en',
-        iso: 'en-GB',
-        file: 'en.ts',
-      },
-      {
-        name: 'Русский',
-        code: 'ru',
-        iso: 'ru-MD',
-        file: 'ru.ts',
-      },
-    ],
+    locales: availableLocales(languages),
+    detectBrowserLanguage: false,
     baseUrl,
-    defaultLocale: 'en',
+    defaultLocale: languages[0],
     vueI18n: './i18n.config.ts',
   },
 });
