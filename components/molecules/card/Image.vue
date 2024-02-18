@@ -29,7 +29,7 @@ const turnActive = () => {
       }"
     >
       <img
-        :src="`assets/images/portfolio/${img}.jpg`"
+        :src="`/assets/images/portfolio/${img}.jpg`"
         loading="lazy"
         :class="{
           'sm:h-56 lg:h-96 w-full object-cover': !active,
