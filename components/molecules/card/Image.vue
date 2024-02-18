@@ -31,7 +31,7 @@ const config = useRuntimeConfig();
       }"
     >
       <img
-        :src="`${config.public.baseUrl}/assets/images/portfolio/${img}.jpg`"
+        :src="`${config.public.baseUrl}assets/images/portfolio/${img}.jpg`"
         loading="lazy"
         :class="{
           'sm:h-56 lg:h-96 w-full object-cover': !active,
