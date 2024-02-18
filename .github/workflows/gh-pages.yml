@@ -21,15 +21,6 @@ jobs:
         with:
           node-version: '20.9.0'
 
-      - name: Clear gh-pages branch
-        run: |
-          git checkout -B gh-pages
-          git rm -r .
-          git commit -m "Clean gh-pages branch" || echo "Nothing to commit"
-
-      - name: Switch back to master branch
-        run: git checkout master
-
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
@@ -41,6 +32,16 @@ jobs:
           NODE_ENV: production
 
       - run: npm install
+
+      - name: Clear gh-pages branch
+        run: |
+          git checkout -B gh-pages
+          git rm -r .
+          git commit -m "Clean gh-pages branch" || echo "Nothing to commit"
+
+      - name: Switch back to master branch
+        run: git checkout master
+
       - run: npx nuxi generate
 
       - name: deploy
