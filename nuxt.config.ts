@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       title,
-      baseUrl,
+      baseUrl: '/',
     },
   },
 
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: baseUrl,
+    // baseURL: baseUrl,
     head: {
       title,
       meta: [
@@ -91,7 +91,7 @@ export default defineNuxtConfig({
     langDir: './i18n',
     locales: availableLocales(languages),
     detectBrowserLanguage: false,
-    baseUrl,
+    baseUrl: 'https://dovlin-m.github.io/mad-arts',
     defaultLocale: languages[0],
     vueI18n: './i18n.config.ts',
   },
