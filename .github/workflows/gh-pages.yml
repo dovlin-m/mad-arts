@@ -23,7 +23,7 @@ jobs:
 
       - name: Clear gh-pages branch
         run: |
-          git checkout gh-pages
+          git checkout -B gh-pages
           git rm -r .
           git commit -m "Clean gh-pages branch" || echo "Nothing to commit"
 
