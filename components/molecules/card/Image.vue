@@ -13,6 +13,8 @@ const vw = ref(Math.max(document?.documentElement?.clientWidth || 0, window?.inn
 const turnActive = () => {
   active.value = vw.value < 768 ? false : !active.value;
 };
+
+const config = useRuntimeConfig();
 </script>
 
 <template>
@@ -29,7 +31,7 @@ const turnActive = () => {
       }"
     >
       <img
-        :src="`/assets/images/portfolio/${img}.jpg`"
+        :src="`${config.public.baseUrl}/assets/images/portfolio/${img}.jpg`"
         loading="lazy"
         :class="{
           'sm:h-56 lg:h-96 w-full object-cover': !active,
