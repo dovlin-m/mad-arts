@@ -32,7 +32,7 @@ jobs:
 
       - name: Build and generate static files
         run: |
-          docker build -t my-nuxt-app-builder -f static.Dockerfile .
+          docker build -t my-nuxt-app-builder -f .deployment/docker/static.Dockerfile .
           docker run --rm -v $(pwd):/app my-nuxt-app-builder
 
       - name: Deploy to GitHub Pages
