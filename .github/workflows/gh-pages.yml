@@ -31,8 +31,11 @@ jobs:
         env:
           NODE_ENV: production
 
-      - name: Docker
-        uses: .deployment/docker/static.Dockerfile
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: .deployment/docker/static.Dockerfile
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
