@@ -1,15 +1,5 @@
 name: GitHub Pages
 
-
-.cache: &cache
-  - name: Cache dependencies
-    uses: actions/cache@v3
-    with:
-      path: ~/.npm
-      key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-      restore-keys: |
-        ${{ runner.os }}-node-
-
 on:
   push:
     branches:
@@ -32,7 +22,13 @@ jobs:
         with:
           node-version: '20.9.0'
 
-        <<: *cache
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Build and generate static files
         run: |
