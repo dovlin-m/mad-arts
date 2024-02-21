@@ -7,10 +7,10 @@ on:
   pull_request:
 
 env:
-  NUXT_PUBLIC_NODE_ENV: 'production'
-  NUXT_PUBLIC_TITLE: 'Mad arts'
-  NUXT_PUBLIC_PREFIX: '/mad-arts/'
-  NUXT_PUBLIC_BASE_URL: 'https://dovlin-m.github.io/mad-arts/'
+  NUXT_PUBLIC_NODE_ENV: ${{ secrets.NUXT_PUBLIC_NODE_ENV }}
+  NUXT_PUBLIC_TITLE: ${{ secrets.NUXT_PUBLIC_TITLE }}
+  NUXT_PUBLIC_PREFIX: ${{ secrets.NUXT_PUBLIC_PREFIX }}
+  NUXT_PUBLIC_BASE_URL: ${{ secrets.NUXT_PUBLIC_BASE_URL }}
 
 jobs:
   deploy:
