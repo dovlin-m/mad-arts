@@ -6,15 +6,11 @@ on:
       - master
   pull_request:
 
-env:
-  NUXT_PUBLIC_NODE_ENV: ${{ secrets.NUXT_PUBLIC_NODE_ENV }}
-  NUXT_PUBLIC_TITLE: ${{ secrets.NUXT_PUBLIC_TITLE }}
-  NUXT_PUBLIC_PREFIX: ${{ secrets.NUXT_PUBLIC_PREFIX }}
-  NUXT_PUBLIC_BASE_URL: ${{ secrets.NUXT_PUBLIC_BASE_URL }}
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    environment: github-pages
+
     permissions:
       contents: write
     concurrency:
