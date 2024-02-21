@@ -31,7 +31,7 @@ jobs:
         env:
           NODE_ENV: production
 
-      - name: deploy
+      - name: Docker
         uses: .deployment/docker/static.Dockerfile
 
       - name: deploy
