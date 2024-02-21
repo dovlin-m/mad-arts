@@ -6,6 +6,13 @@ on:
       - master
   pull_request:
 
+env:
+  NODE_ENV: production
+  NUXT_PUBLIC_NODE_ENV: production
+  NUXT_PUBLIC_TITLE: Mad arts
+  NUXT_PUBLIC_PREFIX: /mad-arts/
+  NUXT_PUBLIC_BASE_URL: https://dovlin-m.github.io/mad-arts/
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
