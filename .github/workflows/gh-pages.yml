@@ -1,10 +1,19 @@
 name: GitHub Pages
 
+
+.cache: &cache
+  - name: Cache dependencies
+    uses: actions/cache@v3
+    with:
+      path: ~/.npm
+      key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      restore-keys: |
+        ${{ runner.os }}-node-
+
 on:
   push:
     branches:
       - master
-  pull_request:
 
 jobs:
   deploy:
@@ -13,28 +22,24 @@ jobs:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Node
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20.9.0'
 
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-        env:
-          NODE_ENV: production
+        <<: *cache
 
-      - run: npm install
-      - run: npx nuxi generate
+      - name: Build and generate static files
+        run: |
+          docker build -t my-nuxt-app-builder -f static.Dockerfile .
+          docker run --rm -v $(pwd):/app my-nuxt-app-builder
 
-      - name: deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:

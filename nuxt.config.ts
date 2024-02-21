@@ -1,14 +1,18 @@
 import { availableLocales } from './utils/locales';
 
-// const dev: boolean = process.env.NODE_ENV !== 'production';
-const baseUrl: string = '/mad-arts/';
-const title = 'Mad-arts';
-const languages = ['en', 'ru'];
+const prod: boolean = process.env.NUXT_PUBLIC_NODE_ENV === 'production';
+const baseUrl: string | undefined = prod
+  ? process.env.NUXT_PUBLIC_BASE_URL
+  : `http://${process.env.NUXT_PUBLIC_HOST}:${process.env.NUXT_PUBLIC_PORT}`;
+const prefix: string = prod ? process.env.NUXT_PUBLIC_PREFIX || '' : '';
+const title: string = process.env.NUXT_PUBLIC_TITLE || '';
+const languages: string[] = ['en', 'ru'];
 
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       title,
+      prefix,
       baseUrl,
     },
   },
@@ -23,7 +27,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: baseUrl,
+    baseURL: prefix,
     head: {
       title,
       meta: [
@@ -34,7 +38,7 @@ export default defineNuxtConfig({
         { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
       ],
       link: [
-        { rel: 'icon', type: 'Image/x-icon', href: '/mad-arts/favicon.ico' },
+        { rel: 'icon', type: 'Image/x-icon', href: `${prefix || '/'}favicon.ico` },
       ],
     },
   },
@@ -80,7 +84,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    static: true,
+    static: prod,
   },
 
   i18n: {
@@ -91,7 +95,7 @@ export default defineNuxtConfig({
     langDir: './i18n',
     locales: availableLocales(languages),
     detectBrowserLanguage: false,
-    baseUrl: 'https://dovlin-m.github.io/mad-arts',
+    baseUrl,
     defaultLocale: languages[0],
     vueI18n: './i18n.config.ts',
   },

@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  nuxt:
+    container_name: 'dovlin-mad-arts'
+    build:
+      context: .
+      dockerfile: .deployment/docker/static.Dockerfile
+    ports:
+      - "80:80"
