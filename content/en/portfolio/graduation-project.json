@@ -1,0 +1,29 @@
+{
+  "id": "graduation_project",
+  "group": 5,
+  "title": "Graduation project",
+  "date": "2021",
+  "images": [
+    "decoration sm:col-span-3",
+    "title",
+    "font sm:col-span-5",
+    "spread_one sm:col-span-8",
+    "house",
+    "woman_sketch",
+    "spread_two sm:col-span-8",
+    "spread_three sm:col-span-8",
+    "goblin",
+    "girl_sketch",
+    "spread_four sm:col-span-8",
+    "spread_five sm:col-span-8",
+    "aquatic_sketch",
+    "spread_sketch_one sm:col-span-3",
+    "sketch sm:col-span-3",
+    "sketch_2 sm:col-span-3",
+    "sketch_3 sm:col-span-3",
+    "sketch_4 sm:col-span-3",
+    "sketch_5 sm:col-span-3",
+    "sketch_6 sm:col-span-3",
+    "sketch_7 sm:col-span-3"
+  ]
+}
