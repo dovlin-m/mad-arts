@@ -1,0 +1,18 @@
+{
+  "id": "academic_head",
+  "group": 10,
+  "title": "Академические головы",
+  "date": "2017 - 2019",
+  "images": [
+    "face_12",
+    "face_1",
+    "face_8",
+    "face_2 sm:col-span-3",
+    "face_11 sm:col-span-3",
+    "face_6 sm:col-span-3",
+    "face_5 sm:col-span-3",
+    "face_3",
+    "face_10",
+    "face_13"
+  ]
+}

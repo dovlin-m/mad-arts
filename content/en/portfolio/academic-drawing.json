@@ -1,0 +1,26 @@
+{
+  "id": "academic_drawing",
+  "group": 8,
+  "title": "Academic drawing",
+  "date": "2017 - 2021",
+  "images": [
+    "sketch_4 sm:col-span-3",
+    "sketch sm:col-span-3",
+    "bottles sm:col-span-3",
+    "sketch_2 sm:col-span-3",
+    "sketch_5 sm:col-span-3",
+    "vera",
+    "ear sm:col-span-3",
+    "man sm:col-span-2",
+    "sketch_mariia sm:col-span-3",
+    "arm sm:col-span-5",
+    "bicycle",
+    "vase sm:col-span-3",
+    "vase_and_apple sm:col-span-3",
+    "bird sm:col-span-3",
+    "sketch_3 sm:col-span-3",
+    "sketch_girl sm:col-span-3",
+    "girl",
+    "sketch_7 sm:col-span-5"
+  ]
+}
