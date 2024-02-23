@@ -28,7 +28,7 @@ const handleScroll = () => {
     <NuxtImg
       ref="banner"
       src="/assets/images/banner.webp"
-      class="w-full h-full object-cover"
+      class="w-full h-full max-h-[425px] object-cover"
       alt="banner monk and old woman"
       sizes="640 md:1024 lg:1280"
       placeholder
