@@ -1,0 +1,1 @@
+import{I as t,J as n,K as s}from"./CDEkPJ9f.js";const r=t(e=>{var a;const u=n();if(["index"].includes(u(e))&&!((a=e.query)!=null&&a.menu))return s({path:e.path,query:{menu:"about"}})});export{r as default};
