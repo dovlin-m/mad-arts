@@ -1,11 +1,13 @@
 export default {
   about: {
-    title: 'I\'m Mariia.',
+    title: 'Hi! I\'m Mariia.',
     content: [
-      'My journey in the world of art began in college, where I studied design and creativity.',
-      'In addition to this, I regularly attend various courses and masterclasses to expand my knowledge and skills in the field of art. This helps me to stay up to date with the latest trends and technologies in the world of art and design.',
-      'Currently, I am involved in creating unique characters and exploring new career opportunities. My works reflect my love for imagination and my passion for art.',
-      'I am open to new projects and look forward to the opportunity to work on something unique and exciting.',
+      'I am very pleased that you have decided to visit my website. I am an artist specializing in 2D and concept art.',
+      'Here I will tell you a little about myself and hope not to bore you (:',
+      'For me, I think, as for most artists, drawing is not just a profession, it is my way of living and expressing myself. I\'ve been painting all my life. I am a designer teacher by education, and I also have an art education. Thanks to this, I can vary in different styles when I paint. I also often apply my knowledge of art history in my works.',
+      'I continue to study and improve my skills now, because there is no limit to perfection in this craft.',
+      'I like to immerse myself in various projects, create new worlds and universes together with other people. I easily find a common language with people and am always open to new opportunities and cooperation.',
+      'My main goal is to create a product that will inspire not only me, but also you. I am sure that with your help we can achieve a lot together. I will be glad to have the opportunity to work with you and create something amazing!',
     ],
     offer: {
       title: 'Take a look at my portfolio!',
