@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       title: '',
+      prefix: '',
       baseUrl: '',
       isProduction: isProd,
     },
