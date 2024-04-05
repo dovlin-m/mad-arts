@@ -1,9 +1,8 @@
 export default {
   digital: [
-    'This and next groups of drawings was created using Procreate. As an artist, I have devoted several years to mastering this digital medium, honing my skills and exploring the vast possibilities it offers.',
-    'Using Procreate as my canvas, I experimented with different brushes and captured fleeting moments that resonated with me.',
-    'I delved into different styles, delved into a variety of color palettes and learned the intricacies of drawing at different speeds. Some jobs were completed in as little as 20 minutes, while others required days of painstaking work. I have selected the brightest, liveliest and most captivating works to display here, reflecting my growth and artistic vision.',
-    'Among the works on display, you will find commissions brought to life based on the unique vision of clients. These pieces reflect the collaborative nature of my art and the ability to turn ideas into captivating visuals. Moreover, you will also find works born of strong emotions, where the act of creation served as a cathartic release. Every stroke, every color choice and every technique used has a story waiting to be discovered.',
+    'This and the next group of drawings were created using the Procreate program. I have devoted several years to mastering this digital environment, honing my skills and exploring and experimenting with the possibilities of the program.',
+    'I delved into different styles, delved into a variety of color palettes and studied the intricacies of drawing at different speeds. Some jobs were completed in just 20 minutes, while others required days of painstaking work. I have chosen the most vivid, lively and fascinating works to demonstrate here.',
+    'Among these works, you will find orders brought to life based on the vision of customers.',
   ],
   digital_dark: [''],
   course_concept: [

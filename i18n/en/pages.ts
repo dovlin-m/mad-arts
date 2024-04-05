@@ -16,8 +16,8 @@ export default {
       portfolio: {
         title: 'My main artworks.',
         content: [
-          'In each of my works, I strive to create characters and locations that make the viewer think and inspire new ideas.',
-          'My works include a variety of characters - from fantastical creatures to caricatured figures, each with their own unique story and personality. I also experiment with various styles and techniques to create multi-layered and engaging pieces.',
+          'In each work, I strive to create characters and locations that make the viewer immerse themselves in the atmosphere of what is happening, feel the characters and reflect the essence.',
+          'My works include a variety of characters - from fantastic creatures to cartoon characters, each of which has its own unique story and character. I also experiment with different styles and techniques to create multifaceted and interesting works.',
         ],
         offer: {
           title: 'Take a look at all my works for different periods',
