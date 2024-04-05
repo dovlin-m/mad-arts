@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = ref({
-  telegram: { href: 'https://t.me/madzzzilla', icon: '/assets/icons/social/tg.svg' },
-  artstation: { href: 'https://www.artstation.com/madzzzilla', icon: '/assets/icons/social/artstation.svg' },
-  linkedin: { href: 'https://www.linkedin.com/in/mad-art/', icon: '/assets/icons/social/linkedin.svg' },
-  instagram: { href: 'https://instagram.com/madzzzzilla?igshid=MjEwN2IyYWYwYw==', icon: '/assets/icons/social/instagram.svg' },
+  telegram: { href: 'https://t.me/madzzzilla', icon: 'assets/icons/social/tg.svg' },
+  artstation: { href: 'https://www.artstation.com/madzzzilla', icon: 'assets/icons/social/artstation.svg' },
+  linkedin: { href: 'https://www.linkedin.com/in/mad-art/', icon: 'assets/icons/social/linkedin.svg' },
+  instagram: { href: 'https://instagram.com/madzzzzilla?igshid=MjEwN2IyYWYwYw==', icon: 'assets/icons/social/instagram.svg' },
 });
 
 const info = ref({
@@ -72,7 +72,7 @@ const info = ref({
           aria-label="Github"
         >
           <atoms-external-svg
-            src="/assets/icons/social/github.svg"
+            src="assets/icons/social/github.svg"
             class="h-6 w-6 text-zinc-50"
           />
           {{ $t('pages.about.sections.contacts.additional_info.developers_website.value') }}

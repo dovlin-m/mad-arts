@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = ref({
-  telegram: { href: 'https://t.me/madzzzilla', src: '/assets/icons/social/tg.svg' },
-  artstation: { href: 'https://www.artstation.com/madzzzilla', src: '/assets/icons/social/artstation.svg' },
-  linkedin: { href: 'https://www.linkedin.com/in/mad-art/', src: '/assets/icons/social/linkedin.svg' },
-  instagram: { href: 'https://instagram.com/madzzzzilla?igshid=MjEwN2IyYWYwYw==', src: '/assets/icons/social/instagram.svg' },
+  telegram: { href: 'https://t.me/madzzzilla', src: 'assets/icons/social/tg.svg' },
+  artstation: { href: 'https://www.artstation.com/madzzzilla', src: 'assets/icons/social/artstation.svg' },
+  linkedin: { href: 'https://www.linkedin.com/in/mad-art/', src: 'assets/icons/social/linkedin.svg' },
+  instagram: { href: 'https://instagram.com/madzzzzilla?igshid=MjEwN2IyYWYwYw==', src: 'assets/icons/social/instagram.svg' },
 });
 </script>
 
