@@ -6,7 +6,7 @@ RUN npm install -D
 
 ADD . ./
 COPY .env.defaults .env
-RUN npx nuxi generate . .env.local
+RUN npx nuxi generate --dotenv .env.prod
 
 FROM nginx
 WORKDIR /app

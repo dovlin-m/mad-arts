@@ -10,7 +10,7 @@
     "build": "nuxi build",
     "analyze": "nuxi analyze",
     "cleanup": "nuxi cleanup",
-    "generate": "nuxi generate . .env.local",
+    "generate": "nuxi generate --dotenv .env.local",
     "preview": "nuxi preview",
     "lint": "eslint --ext .ts,.js,.vue ."
   },

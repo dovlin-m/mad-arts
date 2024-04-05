@@ -2,7 +2,7 @@ import { availableLocales } from './utils/locales';
 
 const isProd: boolean = process.env.NUXT_PUBLIC_NODE_ENV === 'production';
 
-const prefix: string = isProd ? process.env.NUXT_PUBLIC_PREFIX || '' : '/';
+const prefix: string = isProd ? process.env.NUXT_PUBLIC_PREFIX || '/' : '/';
 const title: string = process.env.NUXT_PUBLIC_TITLE || '';
 const locales: string[] = ['en', 'ru'];
 
