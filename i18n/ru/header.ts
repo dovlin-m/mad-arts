@@ -1,5 +1,6 @@
 export default {
+  about: 'Обо мне',
   portfolio: 'Портфолио',
   resume: 'Резюме',
-  menu: 'Меню',
+  contacts: 'Контакты',
 };

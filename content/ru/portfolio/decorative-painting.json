@@ -4,18 +4,57 @@
   "title": "Декоративная живопись",
   "date": "2020 - 2021",
   "images": [
-    "purple_man sm:col-span-3",
-    "yandex_delivery sm:col-span-3",
-    "sketch_pharaoh sm:col-span-3",
-    "pharaoh sm:col-span-3",
-    "girl_with_frog sm:col-span-3",
-    "girl_with_horns sm:col-span-3",
-    "succubus sm:col-span-3",
-    "lil_peep sm:col-span-3",
-    "vera_golden sm:col-span-3",
-    "boy sm:col-span-3",
-    "girl_sun sm:col-span-6",
-    "coffee sm:col-span-3",
-    "icon sm:col-span-2"
+    {
+      "name": "purple_man",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "yandex_delivery",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_pharaoh",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "pharaoh",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl_with_frog",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl_with_horns",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "succubus",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "lil_peep",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "vera_golden",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "boy",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl_sun",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "coffee",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "icon",
+      "size": "sm:col-span-2"
+    }
   ]
 }

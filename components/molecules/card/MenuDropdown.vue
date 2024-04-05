@@ -5,7 +5,7 @@ const menu = ref<InstanceType<typeof AtomsDropdownBox> | null>(null);
 const portfolio = usePortfolio();
 const active = ref(false);
 
-const onClickOutside = (e) => {
+const onClickOutside = (e: Event) => {
   active.value = menu.value?.$el.contains(e.target) && active.value;
 };
 
@@ -42,7 +42,7 @@ onBeforeUnmount(() => {
   <atoms-dropdown-box ref="menu" :active="active">
     <template #button>
       <div class="flex items-center">
-        <atoms-btn-toggle :active="active" @click="turnActive()" />
+        <atoms-btn-toggle :active="active" aria-label="portfolio menu" @click="turnActive()" />
       </div>
     </template>
 
@@ -50,6 +50,7 @@ onBeforeUnmount(() => {
       <button
         v-for="{ id, title } of portfolio" :key="title"
         class="block w-full bg-transparent text-yellow-50 text-left text-sm font-normal cursor-pointer border-0 hover:bg-white/15 py-2 px-2"
+        :aria-label="title"
         @click="scrollToBottom(id)"
         v-text="title"
       />

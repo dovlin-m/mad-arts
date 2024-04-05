@@ -4,16 +4,49 @@
   "title": "Plener",
   "date": "2019 - 2020",
   "images": [
-    "street sm:col-span-6",
-    "dog sm:col-span-3",
-    "children_in_ghetto sm:col-span-3",
-    "street_2 sm:col-span-3",
-    "balcony sm:col-span-6",
-    "sketch_2 sm:col-span-3",
-    "sketch sm:col-span-6",
-    "girl_2 sm:col-span-3",
-    "church sm:col-span-3",
-    "lake sm:col-span-6",
-    "girl sm:col-span-6"
+    {
+      "name": "street",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "dog",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "children_in_ghetto",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "street_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "balcony",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "sketch_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "girl_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "church",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "lake",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "girl",
+      "size": "sm:col-span-6"
+    }
   ]
 }

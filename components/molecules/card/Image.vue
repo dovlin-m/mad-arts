@@ -1,11 +1,11 @@
 <script setup lang="ts">
-defineProps({
-  img: {
-    type: String,
-    required: true,
-  },
-  customClass: String,
-});
+interface Props {
+  src: string,
+  name?: string,
+  size?: string,
+}
+
+defineProps<Props>();
 
 const active = ref(false);
 const vw = ref(Math.max(document?.documentElement?.clientWidth || 0, window?.innerWidth || 0));
@@ -13,32 +13,35 @@ const vw = ref(Math.max(document?.documentElement?.clientWidth || 0, window?.inn
 const turnActive = () => {
   active.value = vw.value < 768 ? false : !active.value;
 };
-
-const config = useRuntimeConfig();
 </script>
 
 <template>
   <div
     class="cursor-pointer"
-    :class="[customClass || 'sm:col-span-4']"
+    :class="[size || 'sm:col-span-4']"
     @click="turnActive()"
   >
     <div
-      class="flex flex-col items-center justify-center transition-all duration-300"
+      class="flex flex-col items-center justify-center transition-all duration-300 z-10"
       :class="{
         'bg-transparent': !active,
         'fixed inset-0 overflow-auto m-0 bg-black/50': active,
       }"
     >
-      <img
-        :src="`${config.public.baseUrl}assets/images/portfolio/${img}.jpg`"
+      <NuxtImg
+        :src
+        format="webp"
         loading="lazy"
+        height="auto"
+        width="auto"
+        sizes="100vw sm:50vw md:400px lg:768px"
+        class="w-full"
         :class="{
-          'sm:h-56 lg:h-96 w-full object-cover': !active,
-          'h-auto w-auto max-h-[70vh] max-w-[70vh] object-contain': active,
+          'sm:h-56 lg:h-96 hover:scale-[1.01] hover:shadow-2xl transition-all object-cover rounded': !active,
+          'max-h-[80vh] max-w-[100vh] object-contain': active,
         }"
-        :alt="img"
-      >
+        :alt="name"
+      />
     </div>
   </div>
 </template>

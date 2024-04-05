@@ -4,15 +4,39 @@
   "title": "Academic heads",
   "date": "2017 - 2019",
   "images": [
-    "face_12",
-    "face_1",
-    "face_8",
-    "face_2 sm:col-span-3",
-    "face_11 sm:col-span-3",
-    "face_6 sm:col-span-3",
-    "face_5 sm:col-span-3",
-    "face_3",
-    "face_10",
-    "face_13"
+    {
+      "name": "face_12"
+    },
+    {
+      "name": "face_1"
+    },
+    {
+      "name": "face_8"
+    },
+    {
+      "name": "face_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "face_11",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "face_6",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "face_5",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "face_3"
+    },
+    {
+      "name": "face_10"
+    },
+    {
+      "name": "face_13"
+    }
   ]
 }

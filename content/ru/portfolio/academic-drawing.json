@@ -4,23 +4,74 @@
   "title": "Академический рисунок",
   "date": "2017 - 2021",
   "images": [
-    "sketch_4 sm:col-span-3",
-    "sketch sm:col-span-3",
-    "bottles sm:col-span-3",
-    "sketch_2 sm:col-span-3",
-    "sketch_5 sm:col-span-3",
-    "vera",
-    "ear sm:col-span-3",
-    "man sm:col-span-2",
-    "sketch_mariia sm:col-span-3",
-    "arm sm:col-span-5",
-    "bicycle",
-    "vase sm:col-span-3",
-    "vase_and_apple sm:col-span-3",
-    "bird sm:col-span-3",
-    "sketch_3 sm:col-span-3",
-    "sketch_girl sm:col-span-3",
-    "girl",
-    "sketch_7 sm:col-span-5"
+    {
+      "name": "sketch_4",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "bottles",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_5",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "vera"
+    },
+    {
+      "name": "ear",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "man",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "sketch_mariia",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "arm",
+      "size": "sm:col-span-5"
+    },
+    {
+      "name": "bicycle"
+    },
+    {
+      "name": "vase",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "vase_and_apple",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "bird",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_3",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_girl",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl"
+    },
+    {
+      "name": "sketch_7",
+      "size": "sm:col-span-5"
+    }
   ]
 }

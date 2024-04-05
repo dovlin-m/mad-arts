@@ -1,12 +1,9 @@
 <script setup lang="ts">
-const updatePortfolio = useUpdatePortfolio();
-
-await useAsyncData('portfolio', () => updatePortfolio());
+definePageMeta({
+  middleware: ['menu'],
+});
 </script>
 
 <template>
-  <div class="mt-14 lg:mt-[72px]">
-    <templates-sections-banner />
-    <templates-sections-portfolio />
-  </div>
+  <templates-profile />
 </template>

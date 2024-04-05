@@ -41,6 +41,12 @@
   }
 }
 
+@layer components {
+  .btn {
+    @apply py-4 px-8 rounded-full border-0 text-base text-zinc-950 inline-block font-semibold cursor-pointer bg-zinc-50 hover:bg-zinc-300 transition-colors;
+  }
+}
+
 @layer utilities {
   .link {
     @apply relative hover:after:w-full;

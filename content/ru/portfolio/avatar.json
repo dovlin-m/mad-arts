@@ -4,11 +4,26 @@
   "title": "Мой автар",
   "date": "2024",
   "images": [
-    "avatar_1",
-    "avatar_2",
-    "avatar_3",
-    "avatar_4",
-    "avatar_5",
-    "avatar_6"
+    {
+      "name": "avatar_1",
+      "important": 3
+    },
+    {
+      "name": "avatar_2",
+      "important": 2
+    },
+    {
+      "name": "avatar_3",
+      "important": 1
+    },
+    {
+      "name": "avatar_4"
+    },
+    {
+      "name": "avatar_5"
+    },
+    {
+      "name": "avatar_6"
+    }
   ]
 }

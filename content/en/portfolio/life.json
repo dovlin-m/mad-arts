@@ -4,12 +4,33 @@
   "title": "\"Life\"",
   "date": "2020",
   "images": [
-    "life sm:col-span-3",
-    "main sm:col-span-3",
-    "frontal_perspective sm:col-span-6",
-    "scan sm:col-span-3",
-    "walls sm:col-span-3",
-    "exhibits sm:col-span-3",
-    "sketch sm:col-span-3"
+    {
+      "name": "life",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "main",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "frontal_perspective",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "scan",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "walls",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "exhibits",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-3"
+    }
   ]
 }

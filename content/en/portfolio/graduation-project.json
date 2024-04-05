@@ -4,26 +4,83 @@
   "title": "Graduation project",
   "date": "2021",
   "images": [
-    "decoration sm:col-span-3",
-    "title",
-    "font sm:col-span-5",
-    "spread_one sm:col-span-8",
-    "house",
-    "woman_sketch",
-    "spread_two sm:col-span-8",
-    "spread_three sm:col-span-8",
-    "goblin",
-    "girl_sketch",
-    "spread_four sm:col-span-8",
-    "spread_five sm:col-span-8",
-    "aquatic_sketch",
-    "spread_sketch_one sm:col-span-3",
-    "sketch sm:col-span-3",
-    "sketch_2 sm:col-span-3",
-    "sketch_3 sm:col-span-3",
-    "sketch_4 sm:col-span-3",
-    "sketch_5 sm:col-span-3",
-    "sketch_6 sm:col-span-3",
-    "sketch_7 sm:col-span-3"
+    {
+      "name": "decoration",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "title"
+    },
+    {
+      "name": "font",
+      "size": "sm:col-span-5"
+    },
+    {
+      "name": "spread_one",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "house"
+    },
+    {
+      "name": "woman_sketch"
+    },
+    {
+      "name": "spread_two",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "spread_three",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "goblin"
+    },
+    {
+      "name": "girl_sketch"
+    },
+    {
+      "name": "spread_four",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "spread_five",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "aquatic_sketch"
+    },
+    {
+      "name": "spread_sketch_one",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_3",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_4",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_5",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_6",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_7",
+      "size": "sm:col-span-3"
+    }
   ]
 }
