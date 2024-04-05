@@ -30,6 +30,7 @@ export default defineNuxtConfig({
         { name: 'description', hid: 'description', content: 'Portfolio' },
         { name: 'format-detection', hid: 'format-detection', content: 'telephone=no' },
         { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
+        { hid: 'og:image', property: 'og:image', content: `${prefix || '/'}assets/images/banner.webp` },
       ],
       link: [
         { rel: 'icon', type: 'Image/x-icon', href: `${prefix || '/'}favicon.ico` },
