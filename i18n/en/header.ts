@@ -1,5 +1,6 @@
 export default {
+  about: 'About me',
   portfolio: 'Portfolio',
   resume: 'Resume',
-  menu: 'Menu',
+  contacts: 'Contacts',
 };

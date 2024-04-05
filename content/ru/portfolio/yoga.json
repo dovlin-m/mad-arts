@@ -4,18 +4,55 @@
   "title": "Йога - бренд одежды",
   "date": "2021",
   "images": [
-    "banner sm:col-span-3",
-    "palette sm:col-span-3",
-    "logo_5 sm:col-span-6",
-    "logo_8 sm:col-span-3",
-    "gazelle sm:col-span-3",
-    "font sm:col-span-3",
-    "logo_4 sm:col-span-3",
-    "logo_1 sm:col-span-3",
-    "logo_2 sm:col-span-9",
-    "logo_7 sm:col-span-8",
-    "gazelle_3d",
-    "sketch",
-    "logo_3 sm:col-span-8"
+    {
+      "name": "banner",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "palette",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_5",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "logo_8",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "gazelle",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "font",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_4",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_1",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_2",
+      "size": "sm:col-span-9"
+    },
+    {
+      "name": "logo_7",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "gazelle_3d"
+    },
+    {
+      "name": "sketch"
+    },
+    {
+      "name": "logo_3",
+      "size": "sm:col-span-8"
+    }
   ]
 }

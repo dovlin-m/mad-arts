@@ -4,11 +4,26 @@
   "title": "Digital dark",
   "date": "2020 - 2023",
   "images": [
-    "scared",
-    "ukraine",
-    "janna",
-    "boys",
-    "boys_to_pomegranate",
-    "girl_with_dog_in_ukraine"
+    {
+      "name": "scared",
+      "important": 1
+    },
+    {
+      "name": "ukraine",
+      "important": 3
+    },
+    {
+      "name": "janna",
+      "important": 2
+    },
+    {
+      "name": "boys"
+    },
+    {
+      "name": "boys_to_pomegranate"
+    },
+    {
+      "name": "girl_with_dog_in_ukraine"
+    }
   ]
 }

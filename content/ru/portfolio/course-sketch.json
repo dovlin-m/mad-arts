@@ -4,11 +4,29 @@
   "title": "Курсы - эскизы",
   "date": "2022 - 2023",
   "images": [
-    "tree sm:col-span-6",
-    "type_of_characters sm:col-span-6",
-    "buildings sm:col-span-6",
-    "machines sm:col-span-6",
-    "silhouettes sm:col-span-6",
-    "buldings_light sm:col-span-6"
+    {
+      "name": "tree",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "type_of_characters",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "buildings",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "machines",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "silhouettes",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "buldings_light",
+      "size": "sm:col-span-6"
+    }
   ]
 }

@@ -1,25 +1,18 @@
 import { availableLocales } from './utils/locales';
 
-const prod: boolean = process.env.NUXT_PUBLIC_NODE_ENV === 'production';
-const baseUrl: string | undefined = prod
-  ? process.env.NUXT_PUBLIC_BASE_URL
-  : `http://${process.env.NUXT_PUBLIC_HOST}:${process.env.NUXT_PUBLIC_PORT}`;
-const prefix: string = prod ? process.env.NUXT_PUBLIC_PREFIX || '' : '';
+const isProd: boolean = process.env.NUXT_PUBLIC_NODE_ENV === 'production';
+
+const prefix: string = isProd ? process.env.NUXT_PUBLIC_PREFIX || '' : '/';
 const title: string = process.env.NUXT_PUBLIC_TITLE || '';
-const languages: string[] = ['en', 'ru'];
+const locales: string[] = ['en', 'ru'];
 
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      title,
-      prefix,
-      baseUrl,
+      title: '',
+      baseUrl: '',
+      isProduction: isProd,
     },
-  },
-
-  devServer: {
-    port: 3000,
-    host: '0.0.0.0',
   },
 
   devtools: {
@@ -27,7 +20,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: prefix,
     head: {
       title,
       meta: [
@@ -45,9 +37,9 @@ export default defineNuxtConfig({
 
   modules: [
     '@pinia/nuxt',
+    '@nuxt/content',
     '@nuxt/image',
     '@nuxtjs/i18n',
-    '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
@@ -56,6 +48,7 @@ export default defineNuxtConfig({
 
   content: {
     markdown: {
+      mdc: false,
       anchorLinks: false,
     },
   },
@@ -84,7 +77,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    static: prod,
+    static: isProd,
   },
 
   i18n: {
@@ -93,10 +86,9 @@ export default defineNuxtConfig({
     },
     lazy: true,
     langDir: './i18n',
-    locales: availableLocales(languages),
+    locales: availableLocales(locales),
     detectBrowserLanguage: false,
-    baseUrl,
-    defaultLocale: languages[0],
+    defaultLocale: locales[0],
     vueI18n: './i18n.config.ts',
   },
 });

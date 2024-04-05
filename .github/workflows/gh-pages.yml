@@ -31,12 +31,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm install
-      - run: npx nuxi generate
-        env:
-          NUXT_PUBLIC_NODE_ENV: ${{ secrets.NUXT_PUBLIC_NODE_ENV }}
-          NUXT_PUBLIC_TITLE: ${{ secrets.NUXT_PUBLIC_TITLE }}
-          NUXT_PUBLIC_PREFIX: ${{ secrets.NUXT_PUBLIC_PREFIX }}
-          NUXT_PUBLIC_BASE_URL: ${{ secrets.NUXT_PUBLIC_BASE_URL }}
+      - run: npx nuxi generate . .env.prod
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3

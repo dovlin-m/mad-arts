@@ -19,6 +19,7 @@ module.exports = {
     'no-descending-specificity': null,
     'no-empty-source': null,
     'declaration-empty-line-before': null,
+    'selector-class-pattern': null,
     'at-rule-empty-line-before': [
       'always',
       {
