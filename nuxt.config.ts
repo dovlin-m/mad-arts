@@ -20,6 +20,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: prefix,
     head: {
       title,
       meta: [
