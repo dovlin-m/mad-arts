@@ -1,8 +1,8 @@
 {
-  "semi": false,
+  "semi": true,
   "arrowParens": "always",
   "singleQuote": true,
-  "trailingComma": "none",
+  "trailingComma": "es5",
   "plugins": [
     "prettier-plugin-tailwindcss"
   ]

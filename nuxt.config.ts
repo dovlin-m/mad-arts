@@ -1,10 +1,7 @@
-import { availableLocales } from './utils/locales';
-
 const isProd: boolean = process.env.NUXT_PUBLIC_NODE_ENV === 'production';
 
 const prefix: string = isProd ? process.env.NUXT_PUBLIC_PREFIX || '/' : '/';
 const title: string = process.env.NUXT_PUBLIC_TITLE || '';
-const locales: string[] = ['en', 'ru'];
 
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -27,13 +24,20 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', hid: 'description', content: 'Portfolio' },
-        { name: 'format-detection', hid: 'format-detection', content: 'telephone=no' },
-        { name: 'format-detection', hid: 'format-detection', content: 'date=no' },
-        { hid: 'og:image', property: 'og:image', content: `${prefix || '/'}assets/images/banner.webp` },
+        { name: 'description', content: 'Portfolio' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { name: 'format-detection', content: 'date=no' },
+        {
+          property: 'og:image',
+          content: `${prefix || '/'}assets/images/banner.webp`,
+        },
       ],
       link: [
-        { rel: 'icon', type: 'Image/x-icon', href: `${prefix || '/'}favicon.ico` },
+        {
+          rel: 'icon',
+          type: 'Image/x-icon',
+          href: `${prefix || '/'}favicon.ico`,
+        },
       ],
     },
   },
@@ -71,7 +75,7 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    cssPath:  ['~/assets/scss/tailwind.scss', { injectPosition: 'last' }],
+    cssPath: ['~/assets/scss/tailwind.scss', { injectPosition: 'last' }],
   },
 
   image: {
@@ -88,10 +92,23 @@ export default defineNuxtConfig({
       strictMessage: false,
     },
     lazy: true,
-    langDir: './i18n',
-    locales: availableLocales(locales),
+    locales: [
+      {
+        name: 'English',
+        code: 'en',
+        language: 'en-GB',
+        file: 'en.ts',
+      },
+      {
+        name: 'Русский',
+        code: 'ru',
+        language: 'ru-MD',
+        file: 'ru.ts',
+      },
+    ],
     detectBrowserLanguage: false,
-    defaultLocale: locales[0],
-    vueI18n: './i18n.config.ts',
+    defaultLocale: 'en',
   },
+
+  compatibilityDate: '2025-10-23',
 });
