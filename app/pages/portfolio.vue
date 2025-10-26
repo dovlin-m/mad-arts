@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const updatePortfolio = useUpdatePortfolio();
 
-await useAsyncData('portfolio', () => updatePortfolio());
+await updatePortfolio();
 </script>
 
 <template>

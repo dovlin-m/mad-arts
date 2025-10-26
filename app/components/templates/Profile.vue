@@ -14,7 +14,6 @@ const oldIndex = ref(0);
 watch(
   () => route.query.menu,
   (newValue, oldValue) => {
-    console.log('newValue:', newValue);
     newIndex.value = menu.value.indexOf(newValue);
     oldIndex.value = menu.value.indexOf(oldValue);
   },
@@ -29,7 +28,7 @@ const current = computed(() => {
     about: OrganismsSectionsAbout,
     portfolio: OrganismsSectionsMainArtworks,
     resume: OrganismsSectionsResume,
-    contacts: OrganismsSectionsContacts,
+    contacts: OrganismsSectionsContacts
   };
 
   return components[route.query.menu] || OrganismsSectionsAbout;
@@ -40,8 +39,8 @@ watch(
   () => {
     router.push({ query: { ...route.query, menu: route.query.menu } });
 
-    if (process.client) {
-      window.scrollTo(0, 0);
+    if (import.meta.client) {
+      window.scrollTo(0, 0)
     }
   },
 );

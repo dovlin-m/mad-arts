@@ -26,5 +26,6 @@ const _srcset = computed(() => {
     :height="height"
     loading="lazy"
     :alt="name"
+    placeholder="/assets/images/placeholder.png"
   >
 </template>

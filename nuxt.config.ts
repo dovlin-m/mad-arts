@@ -49,8 +49,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
+    '@nuxt/eslint',
   ],
 
   content: {

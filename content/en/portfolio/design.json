@@ -1,0 +1,105 @@
+{
+  "id": "design",
+  "group": 4,
+  "title": "Design",
+  "date": "2020 - 2023",
+  "images": [
+    {
+      "name": "theatre_illustration",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "teatre_illuatration_colour",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "debenture_design",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_college",
+      "size": "sm:col-span-3"
+    },
+
+    {
+      "name": "marmelade_logo"
+    },
+    {
+      "name": "marmelade_cutaway",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "marmelade_background",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "Marmelade_logo1"
+    },
+    {
+      "name": "chary_logo1",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "Chary_logo_variation",
+      "size": "sm:col-span-8"
+    },
+
+    {
+      "name": "chary_logo_colour",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "chary_logo",
+      "size": "sm:col-span-4"
+    },
+
+    {
+      "name": "banner",
+      "size": "sm:col-span-3",
+      "important": 1
+    },
+    {
+      "name": "logo_8",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "gazelle",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "logo_4-1",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "gazelle_3d"
+    },
+    {
+      "name": "logo_5-1",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "logo_1",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "logo_2",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "logo_3",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "logo_4",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "logo_5",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "logo_3",
+      "size": "sm:col-span-4"
+    }
+  ]
+}

@@ -41,6 +41,8 @@ const turnActive = () => {
           'max-h-[80vh] max-w-[100vh] object-contain': active,
         }"
         :alt="name"
+        placeholder="/assets/images/placeholder.png"
+        placeholder-class="bg-zinc-600"
       />
     </div>
   </div>

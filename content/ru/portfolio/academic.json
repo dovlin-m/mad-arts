@@ -1,0 +1,179 @@
+{
+  "id": "academic",
+  "group": 3,
+  "title": "Академические работы",
+  "date": "2020 - 2023",
+  "images": [
+    {
+
+      "name": "vera"
+    },
+
+    {
+      "name": "bottles",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_7",
+      "size": "sm:col-span-5"
+    },
+
+    {
+      "name": "face_12"
+    },
+    {
+      "name": "face_1"
+    },
+    {
+      "name": "face_8"
+    },
+
+    {
+      "name": "face_3"
+    },
+    {
+
+      "name": "face_13"
+    },
+    {
+      "name": "face_2",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "arm",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "ear",
+      "size": "sm:col-span-3"
+    },
+
+    {
+      "name": "sketch_mariia",
+      "size": "sm:col-span-3"
+    },
+
+    {
+      "name": "sketch_7-1",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "sketch_2-1",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "vera_7",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "vera_6",
+      "size": "sm:col-span-3"
+    },
+
+    {
+
+      "name": "church",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "street_2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch-1",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_3-2",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "balcony",
+      "size": "sm:col-span-6"
+    },
+    {
+
+      "name": "vase",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "vase_and_apple",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "lemon",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "red_blue",
+      "size": "sm:col-span-6"
+    },
+
+    {
+      "name": "purple_man",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "yandex_delivery",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_pharaoh",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "pharaoh",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl_with_frog",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "girl_with_horns",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "succubus",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "dog",
+      "size": "sm:col-span-3"
+    },
+
+    {
+      "name": "children_in_ghetto",
+      "size": "sm:col-span-3"
+    },
+    {
+
+      "name": "girl_sun",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "coffee",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "icon",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "girl_background_yellow",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "flower",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "street",
+      "size": "sm:col-span-6"
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 <script setup lang="ts">
-const localePath = useLocalePath();
 const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-  <nuxt-link class="flex items-center" :to="localePath({ name: 'index' })">
+  <nuxt-link class="flex items-center" :to="$localePath({ name: 'index' })">
     <NuxtImg
       src="/assets/images/logo/russian-girl.jpg"
       class="rounded-full mr-2"

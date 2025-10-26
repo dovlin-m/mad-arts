@@ -1,0 +1,29 @@
+{
+  "id": "in_progress",
+  "group": 1,
+  "title": "In the progress",
+  "date": "2025",
+  "images": [
+
+    {
+      "name": "monster_progress",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "monster_face",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "monster_cochlea",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "monster_variation",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "monster_perspective",
+      "size": "sm:col-span-4"
+    }
+  ]
+}

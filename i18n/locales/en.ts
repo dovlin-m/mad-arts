@@ -1,7 +1,7 @@
-import header from '~/i18n/locales/en/header';
-import pages from '~/i18n/locales/en/pages';
-import portfolio from '~/i18n/locales/en/portfolio';
-import buttons from '~/i18n/locales/en/buttons';
+import header from './en/header';
+import pages from './en/pages';
+import portfolio from './en/portfolio';
+import buttons from './en/buttons';
 
 export default defineI18nLocale(async () => {
   return {

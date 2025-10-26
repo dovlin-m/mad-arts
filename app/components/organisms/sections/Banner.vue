@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const bannerHeight= ref<number | null>(null);
 const banner = ref<HTMLElement | null>(null);
+const bannerHeight = ref<number | null>(null);
 const defaultBannerHeight = ref<number>(0);
 
 onMounted(() => {
@@ -33,7 +33,7 @@ onMounted(() => {
   >
     <NuxtImg
       src="/assets/images/banner.webp"
-      class="w-full h-full min-h-40 max-h-40 sm:min-h-[425px] sm:max-h-[425px] object-cover"
+      class="w-full h-full min-h-40 max-h-40 sm:min-h-[485px] sm:max-h-[485px] object-cover"
       alt="banner monk and old woman"
       sizes="768 md:1280"
       preload

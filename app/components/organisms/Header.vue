@@ -2,7 +2,6 @@
 const route = useRoute();
 const { locales } = useI18n();
 const getRouteBaseName = useRouteBaseName();
-const switchLocalePath = useSwitchLocalePath();
 
 const isIndex = computed(() => {
   return ['index'].includes(getRouteBaseName(route) as string);
@@ -10,7 +9,7 @@ const isIndex = computed(() => {
 </script>
 
 <template>
-  <div class="fixed inset-x-0 top-0 bg-primary z-50">
+  <div class="fixed inset-x-0 top-0 z-50 bg-primary">
     <div class="container">
       <header class="flex items-center justify-between py-4 lg:py-6">
         <atoms-logo />
@@ -19,16 +18,15 @@ const isIndex = computed(() => {
 
         <div class="flex items-center gap-4">
           <div class="flex justify-center gap-2">
-            <ClientOnly fallback-tag="a">
-              <NuxtLink
-                v-for="{ code } in locales" :key="code"
-                :to="switchLocalePath(code)"
-                class="text-base uppercase text-yellow-50"
-                active-class="font-semibold"
-              >
-                {{ code }}
-              </NuxtLink>
-            </ClientOnly>
+            <NuxtLink
+              v-for="{ code } in locales"
+              :key="code"
+              :to="$switchLocalePath(code)"
+              class="text-base uppercase text-yellow-50"
+              active-class="font-semibold"
+            >
+              {{ code }}
+            </NuxtLink>
           </div>
 
           <molecules-card-menu-dropdown v-show="!isIndex" />

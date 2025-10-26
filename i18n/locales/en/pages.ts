@@ -1,17 +1,47 @@
 export default {
   about: {
-    title: 'Hi! I\'m Mariia.',
+    title: 'Who am I',
     content: [
-      'I am very pleased that you have decided to visit my website. I am an artist specializing in 2D and concept art.',
-      'Here I will tell you a little about myself and hope not to bore you (:',
+      'I am Mariia, a 2D and concept artist',
+      'I\'m a designer-teacher by training, and by nature, I\'m a person who\'s always looking for a balance between "let me fix it a little more" and "that\'s enough, I\'m sending it."',
       'For me, I think, as for most artists, drawing is not just a profession, it is my way of living and expressing myself. I\'ve been painting all my life. I am a designer teacher by education, and I also have an art education. Thanks to this, I can vary in different styles when I paint. I also often apply my knowledge of art history in my works.',
-      'I continue to study and improve my skills now, because there is no limit to perfection in this craft.',
-      'I like to immerse myself in various projects, create new worlds and universes together with other people. I easily find a common language with people and am always open to new opportunities and cooperation.',
-      'My main goal is to create a product that will inspire not only me, but also you. I am sure that with your help we can achieve a lot together. I will be glad to have the opportunity to work with you and create something amazing!',
+      'My academic background and love for art history help me maintain this balance: sometimes I focus on composition, and sometimes I cover up mistakes with sound terms.',
+      'I\'m not afraid to make mistakes, take responsibility, and correct them, and this is how I grow.',
     ],
+
+    whyMe: {
+      title: 'Why me',
+      content: [
+        'Because I don\'t just draw; I think about why the viewer needs it.',
+        'I\'m looking for solutions where character and meaning are visible.',
+        'I can work in a team: listen, argue, and suggest.',
+        'And, as you\'ve already figured out, I love when a visual story says more than the text underneath it.',
+      ],
+    },
+
+    myTarget: {
+      title: 'My goal',
+      content: [
+        'To make visual things that inspire, disturb or make you smile.',
+        'If the drawing makes you feel exactly the emotion I had in mind — this is the best reward.',
+        'If you need a project with character and meaning — congratulations, you\'ve found the right person.',
+      ],
+    },
+
+    intro: {
+      title: 'Welcome to my virtual workshop',
+      content: [
+        'It smells of digital pictures and a slightly overheated tablet.',
+        'A little chaos, a little order and a lot of layers that I swear had a point.',
+        'This workshop is about characters, worlds and visual stories.',
+        ' Come in — if it responds, let\'s create something beautiful together.',
+      ],
+    },
+
     offer: {
       title: 'Take a look at my portfolio!',
     },
+
     sections: {
       portfolio: {
         title: 'My main artworks.',
@@ -32,7 +62,9 @@ export default {
       },
       contacts: {
         title: 'My contacts.',
-        content: ['If you are interested in my portfolio, then you can also call or write to me by email, social networks.'],
+        content: [
+          'If you are interested in my portfolio, then you can also call or write to me by email, social networks.',
+        ],
         info: [
           [
             {
@@ -66,12 +98,5 @@ export default {
         },
       },
     },
-  },
-  portfolio: {
-    title: 'Portfolio.',
-    content: [
-      'In each of my works, I strive to create characters and locations that make the viewer think and inspire new ideas.',
-      'My works include a variety of characters - from fantastical creatures to caricatured figures, each with their own unique story and personality. I also experiment with various styles and techniques to create multi-layered and engaging pieces.',
-    ],
   },
 };

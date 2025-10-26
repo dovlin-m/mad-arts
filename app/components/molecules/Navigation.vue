@@ -1,9 +1,8 @@
 <script setup lang="ts">
-const localePath = useLocalePath();
 const route = useRoute();
 
 interface Props {
-  large?: boolean,
+  large?: boolean;
 }
 
 defineProps<Props>();
@@ -15,9 +14,11 @@ defineProps<Props>();
       <ClientOnly>
         <NuxtLink
           class="link"
-          :to="localePath({ name: 'index', query: { menu: key } })"
+          :to="$localePath({ name: 'index', query: { menu: key } })"
           :class="[
-            route.query.menu === key ? 'text-yellow-200 after:content-none cursor-default' : 'text-yellow-50 cursor-pointer',
+            route.query.menu === key
+              ? 'cursor-default text-yellow-200 after:content-none'
+              : 'cursor-pointer text-yellow-50',
             large ? 'text-base sm:text-xl' : 'text-base',
           ]"
         >
@@ -27,9 +28,9 @@ defineProps<Props>();
         <template #fallback>
           <NuxtLink
             class="link"
-            :to="localePath({ name: 'index', query: { menu: key } })"
+            :to="$localePath({ name: 'index', query: { menu: key } })"
             :class="[
-              'text-yellow-50 cursor-pointer',
+              'cursor-pointer text-yellow-50',
               large ? 'text-base sm:text-xl' : 'text-base',
             ]"
           >

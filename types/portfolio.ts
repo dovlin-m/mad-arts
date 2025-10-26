@@ -4,6 +4,7 @@ export interface Image {
   name: string,
   size?: string,
   important?: number,
+  id?: string,
 }
 
 export interface PortfolioItem extends ParsedContent {
@@ -13,4 +14,5 @@ export interface PortfolioItem extends ParsedContent {
   group: number,
   date: string,
   images: Image[],
+  index: number,
 }

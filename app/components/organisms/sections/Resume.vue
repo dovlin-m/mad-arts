@@ -19,12 +19,21 @@ const { locale } = useI18n();
         </NuxtLink>
       </div>
 
-      <NuxtImg
-        :src="`/assets/images/resume/Mariia_Dmitrieva_Concept_Artist_${locale}.webp`"
-        class="sm:col-span-8 w-full rounded-md"
-        :alt="`resume Mariia_Dmitrieva_Concept_Artist_${locale}`"
-        placeholder
-      />
+      <div class="sm:col-span-8 ">
+        <NuxtImg
+          :src="`/assets/images/resume/page-1-${locale}.webp`"
+          class="w-full rounded-md"
+          :alt="`resume Mariia_Dmitrieva_Concept_Artist_${locale}`"
+          placeholder
+        />
+
+        <NuxtImg
+          :src="`/assets/images/resume/page-2-${locale}.webp`"
+          class="w-full rounded-md"
+          :alt="`resume Mariia_Dmitrieva_Concept_Artist_${locale}`"
+          placeholder
+        />
+      </div>
     </atoms-grid-row>
   </section>
 </template>

@@ -1,38 +1,205 @@
 {
   "id": "digital",
-  "group": 1,
-  "title": "Digital",
-  "date": "2020 - 2023",
+  "group": 2,
+  "title": "My digital artworks",
+  "date": "2020 - 2025",
   "images": [
     {
-      "name": "russian-girl",
+      "name": "egypt_girl_1",
+      "size": "sm:col-span-3",
       "important": 1
     },
     {
-      "name": "tomato",
+      "name": "god_and_fish",
+      "size": "sm:col-span-5",
       "important": 2
     },
     {
-      "name": "lemon",
+      "name": "barrel",
       "important": 3
     },
     {
-      "name": "grandmother_and_cat"
+      "name": "consept_art_lu",
+      "size": "sm:col-span-6",
+      "important": 4
     },
     {
-      "name": "grandparent_2"
+      "name": "mask",
+      "size": "sm:col-span-6",
+      "important": 5
     },
     {
-      "name": "vera_2"
+      "name": "building_concept",
+      "size": "sm:col-span-6",
+      "important": 6
     },
     {
-      "name": "girl_on_case"
+      "name": "pigeon",
+      "size": "sm:col-span-6",
+      "important": 7
     },
     {
-      "name": "mouse_girl"
+      "name": "leagal_logo",
+      "size": "sm:col-span-8",
+      "important": 8
     },
     {
-      "name": "girl_yoga"
+      "name": "colors",
+      "important": 9
+    },
+    {
+
+      "name": "perspective",
+      "important": 10
+    },
+    {
+      "name": "house_cactus",
+      "size": "sm:col-span-8",
+      "important": 11
+    },
+
+    {
+      "name": "illustration_library",
+      "size": "sm:col-span-6",
+      "important": 12
+    },
+    {
+      "name": "castle_illustration",
+      "size": "sm:col-span-6",
+      "important": 13
+    },
+    {
+      "name": "boys_to_pomegranate",
+      "important": 14
+    },
+    {
+      "name": "janna",
+      "important": 15
+    },
+    {
+      "name": "girl_with_dog_in_ukraine",
+      "important": 16
+    },
+    {
+      "name": "russian-girl",
+      "important": 17
+    },
+    {
+      "name": "vera_2",
+      "important": 18
+    },
+    {
+      "name": "mouse_girl",
+      "important": 19
+    },
+    {
+      "name": "you_and_me",
+      "important": 20
+    },
+    {
+      "name": "girl_yoga",
+      "important": 21
+    },
+    {
+      "name": "girl_on_case",
+      "important": 22
+    },
+    {
+      "name": "tomato",
+      "important": 23
+    },
+    {
+      "name": "grandmother_and_cat",
+      "important": 24
+    },
+    {
+      "name": "lemon",
+      "important": 25
+    },
+    {
+      "name": "tree",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "type_of_characters",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "buildings",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "machines",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "silhouettes",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "buldings_light",
+      "size": "sm:col-span-6"
+    },
+    {
+      "name": "decoration",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "title",
+      "size": "sm:col-span-4"
+    },
+    {
+      "name": "font",
+      "size": "sm:col-span-3"
+    },
+    {
+      "name": "sketch_6",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "spread_one",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "woman_sketch"
+    },
+    {
+      "name": "goblin"
+    },
+    {
+      "name": "spread_two",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "spread_three",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "aquatic_sketch"
+    },
+    {
+      "name": "sketch",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "sketch_2",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "spread_four",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "spread_five",
+      "size": "sm:col-span-8"
+    },
+    {
+      "name": "sketch_3",
+      "size": "sm:col-span-2"
+    },
+    {
+      "name": "sketch_7",
+      "size": "sm:col-span-2"
     }
   ]
 }
